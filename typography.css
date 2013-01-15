@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Hagin Caps Medium";
+  src: local("Hagin Caps Medium"),
+  local("Hagin Caps Medium"),
+  url(hagin-caps-medium.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Hagin Caps Thin";
+  src: local("Hagin Caps Thin"),
+  local("Hagin Caps Thin"),
+  url(hagin-caps-thin.otf);
+}
+@font-face {
+  font-family: "Poly";
+  src: local("Poly"),
+  local("Poly"),
+  url(poly-regular.otf);
+}
+@font-face {
+  font-family: "Poly";
+  src: local("Poly"),
+  local("Poly"),
+  url(poly-italic.otf);
+  font-style: italic;
+}
+
+body {
+  font-size: 100%;
+  font-weight: 400;
+}
+body, input, textarea {
+  font-family: "Poly", Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-family: "Hagin Caps Medium";
+}
+h2,h3,h4,h5 {
+  font-family: "Hagin Caps Medium";
+}
