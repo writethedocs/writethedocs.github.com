@@ -1,53 +1,311 @@
-<!doctype html>
-<!--[if lt IE 9]><html class="ie"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
-
-<!--
-  The comment jumble above is handy for targeting old IE with CSS.
-  http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
--->
-  
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>Write The Docs</title>
-    
-    <!-- Please don't add "maximum-scale=1" here. It's bad for accessibility. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
-    <link rel="stylesheet" href="gcs.css"/> 
-    <link rel="stylesheet" href="typography.css"/>
-    <link rel="stylesheet" href="layout.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Write The Docs - A two day conference for technical writers, documentarians, and all those who write the docs.</title>
+    <meta name="description" content="A two day conference for technical writers, documentarians, and all those who write the docs.">
 
-    <!-- 
-      This script enables structural HTML5 elements in old IE.
-      http://code.google.com/p/html5shim/
-    -->
-    <!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="author" content="Write The Docs">
+    <meta name="ROBOTS" content="ALL">
+
+    <meta name="geo.country" content="US">
+    <meta name="dc.language" content="en">
+    <meta name="geo.placename" content="Portland, Oregon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph protocol -->
+    <meta property="og:image" content="http://conf.writethedocs.org/img/logo.png">
+    <meta property="og:title" content="A two day conference for technical writers, documentarians, and all those who write the docs.">
+    <meta property="og:type" content="conference">
+    <meta property="og:url" content="http://conf.writethedocs.org">
+    <meta property="og:site_name" content="Write The Docs">
+    <!-- /Open Graph protocol -->
+
+    <!-- Google Plus1 -->
+    
+    <meta itemprop="name" content="Write The Docs">
+    <meta itemprop="description" content="A two day conference for technical writers, documentarians, and all those who write the docs.">
+    <meta itemprop="image" content="http://conf.writethedocs.org/img/logo.png">
+    <!-- /Google Plus1 -->
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+    body { 
+      padding-top: 40px;
+    }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/slabtext.css">
+
+    <script src="//www.google-analytics.com/ga.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/typography.css">
   </head>
-  
-  <body lang="en">
-    
-    <header>
-      <div class="wrapper">
-        <h1>WRITE THE DOCS 2013</h1>
-        <h2>APRIL 6-7, PORTLAND, OR</h2>
-      </div>
-    </header>
-    <section>
-    <article id="twoway">
-      <section class="wrapper">
-        <p>
-          A two day conference for technical writers, documentarians, and other knights of the word.
-       </p>
-       <hr />
-       <h2><a href="#">REGISTER NOW</a></h2>
+  <body data-spy="scroll" data-target=".navbar" onload="initialize()">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-      </section>
-    </article>
-  </section>
-  </body>
-  
-</html>
+        <header class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="row-fluid">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <div id="scroll-nav">
+                <ul class="nav">
+                  <li class=""><a href="#home" class="">Home</a></li>
+                </ul>
+                <div class="nav-collapse">
+                  <ul class="nav">
+                    <li><a href="#info">Info</a></li>
+                    <li class="active"><a href="#location">Location</a></li>
+                    <li class=""><a href="#crew">Crew</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        
+        <section id="home">
+          <div class="container banner">
+            <div class="row-fluid">
+              <div id="slab" class="span6 offset3">
+                <h1 class="slab">WRITE THE</h1>
+                <h1 class="slab">DOCS</h1>
+                <p>A two day conference for technical writers,</p>
+                <p>documentarians, and all those who write the docs.</p>
+                <hr class="pinstripe">
+                <h2 class="slab">APRIL 6-7</h2>
+                <h2 class="slab">Portland Oregon</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="info">
+          <div class="container">
+            <div class="row-fluid">
+              <div class="span4">
+                <h1>Information</h1>
+                <p>
+                  <strong>Write The Docs</strong> will be a two day conference focusing on documentation systems, tech writing theory, and information delivery. It will be held in Portland, Oregon on April 6-7 and is a free conference. 
+                </p>
+              </div>
+              <div class="span4">
+                <h1>Pre-register Now!</h1>
+                <p>
+                  Tickets will be available soon, but you don't have to wait to get pre-registered. <strong>Sign up below</strong> and you'll be the first to get a ticket. 
+                </p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                  <form action="http://writethedocs.us6.list-manage.com/subscribe/post?u=94377ea46d8b176a11a325d03&amp;id=dcf0ed349b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                    <div class="mc-field-group input-append">
+                      <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                      <input type="submit" value="Preregister" name="subscribe" id="mc-embedded-subscribe" class="btn">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                  </form>
+                </div>
+                <!--End mc_embed_signup-->
+              </div>
+              <div class="span4">
+                <h1>Location</h1>
+                <p>
+                  The conference will be held in the <strong>Blagen Block</strong> building in the offices of <strong>Thetus Corporation</strong>.
+                </p>
+                <address id="location">
+                  <strong>Thetus Corporation</strong><br>
+                  34 NW 1st Ave, 3rd floor<br>
+                  Portland, OR 97209<br>
+<!--                   <abbr title="Phone">P:</abbr> (123) 456-7890
+ -->                </address>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <div>
+          <div class="map" id="map" style="width: 100%; height: 480px;"></div>
+        </div>
+
+        <section id="crew">
+          <div class="container">
+            <div class="row-fluid">
+              <h1>Crew</h1>
+                <div class="media span4">
+                  <a class="pull-left" href="https://twitter.com/ericholscher">
+                    <img class="media-object headshot well well-small" src="https://api.twitter.com/1/users/profile_image?screen_name=ericholscher&amp;size=bigger">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Eric Holscher <small>Organizer</small></h4>
+                    <p><a href="mailto:ericholscher@gmail.com">eric@ericholscher.com</a></p>
+                    <p>
+                      <span id="social-footerd">
+                      <a href="https://github.com/ericholscher"><img class="rock" src="img/github.png"></a>
+                      <a href="https://twitter.com/ericholscher"><img class="rock" src="img/twitter.png"></a>
+                    </span>
+                  </p>
+                  </div>
+                </div>
+                <div class="media span4">
+                  <a class="pull-left" href="https://twitter.com/thoward37">
+                    <img class="media-object headshot well well-small" src="https://api.twitter.com/1/users/profile_image?screen_name=thoward37&amp;size=original">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Troy Howard <small>Organizer</small></h4>
+                    <p><a href="mailto:thoward37@gmail.com">thoward37@gmail.com</a></p>
+                    <p>
+                      <span id="social-footerd">
+                      <a href="https://github.com/thoward"><img class="rock" src="img/github.png"></a>
+                      <a href="https://twitter.com/thoward37"><img class="rock" src="img/twitter.png"></a>
+                    </span>
+                  </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <hr>
+          <div class="footer">
+            <div class="container">
+              <span>© Write The Docs 2013</span>
+              <span id="social-footer" class="pull-right">
+                <a href="https://github.com/writethedocs"><img class="rock" src="img/github.png"></a>
+                <a href="https://twitter.com/writethedocs"><img class="rock" src="img/twitter.png"></a>
+                <a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a>
+              </span>
+            </div>
+          </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script><script src="js/vendor/jquery-1.8.3.min.js"></script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery.slabtext.min.js"></script>
+        <script src="js/vendor/jquery.nav.js"></script>
+        <script src="js/vendor/jquery.scrollTo.js"></script>
+
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+
+          function slabTextHeadlines() {
+            $(".slab").slabText();
+            $("#slab").removeClass('hidden');
+          };
+
+          WebFontConfig = {
+            custom: { 
+              families: ['Hagin Caps Medium'],
+              urls: [ 'css/typography.css']
+            },
+              loading: slabTextHeadlines
+          };
+
+          (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+          })();
+
+          $('#navbar').scrollspy();
+
+        </script>
+        
+        <script>
+          $('#scroll-nav').onePageNav({
+            currentClass: 'active',
+            changeHash: true,
+            scrollOffset: 40,
+            scrollSpeed: 1200
+          });
+        </script>
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <!-- <script src="http://maps.gstatic.com/intl/en_ALL/mapfiles/api-3/10/19/main.js" type="text/javascript"></script> -->
+
+        <script>
+          var map;
+          var loc = new google.maps.LatLng(45.525743,-122.67055);
+          var markerPos = new google.maps.LatLng(45.525743,-122.67055);
+          function initialize() {
+
+             var stylers = [ 
+              { 
+                "featureType": "all", 
+                "elementType": "all",
+                "stylers": 
+                  [ 
+                    { "saturation": "-70" }  
+                  ] 
+              } 
+            ];
+             var mapOptions = {
+              zoom: 14,
+              center: loc,
+              mapTypeId: 'writethedocs',
+              scrollwheel: false
+             };
+            
+             map = new google.maps.Map(document.getElementById("map"),
+             mapOptions);
+            
+             var styledMapOptions = {
+              map: map,
+              name: "writethedocs-map"
+             }
+             var marker = new google.maps.Marker({
+                 position: markerPos,
+                 map: map,
+                 title: "Thetus Corporation"
+             });
+
+             var infowindow = new google.maps.InfoWindow({
+                maxWidth: 500,
+                position: markerPos,
+                content: '<div class="clearfix"><h4>Thetus Corporation</h4><p> 34 NW 1st Ave, 3rd floor</p><p>Portland, OR 97209</p><p><a target="_blank" href="https://plus.google.com/115671800870701629801/about?gl=us&hl=en">more info</a>‎</p></div>'
+            });
+//            infowindow.open(map);
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map,marker);
+            });
+
+             var testmap =  new google.maps.StyledMapType(stylers,styledMapOptions);
+            
+             map.mapTypes.set('writethedocs', testmap);
+             map.setMapTypeId('writethedocs');
+          }
+        </script>
+
+        <script type="text/javascript">
+          var _gaq=[['_setAccount','UA-37795838-1'],['_trackPageview']];
+          (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+          s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    
+
+</body></html>
