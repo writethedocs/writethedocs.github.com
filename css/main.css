@@ -1,0 +1,134 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+header {
+  z-index: 50000;
+  background-color: #1D1D1D;
+  background-color: rgba(29, 29, 29, 0.88);
+  border-bottom: 5px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar .btn-navbar, .navbar .btn-navbar:hover { 
+  background-color: #1D1D1D;
+  background-color: rgba(29, 29, 29, 0.66);
+}
+.navbar .btn-navbar:hover { 
+  background-color: #1D1D1D;
+  background-color: rgba(29, 29, 29, 0.88);
+}
+.navbar-collapse { 
+  background-color: transparent;
+}
+
+.navbar .nav > li > a {
+  color: #a49d95;
+  text-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.navbar .nav > li > a:hover, 
+.navbar .nav > li > .active a,
+.navbar .nav > a,
+.navbar .nav > a:hover, 
+.navbar .nav > .active a,
+.navbar .nav > .active a:hover {
+  color: #fff;
+  background-color: #2d2d2d;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+header > ul { 
+  margin: 0 0 0 3px;
+  float: left;
+}
+
+header > ul li {
+  display: inline;
+  margin-left: 18px;
+}
+
+.banner { 
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+strong {
+  border-bottom: 1px solid #CCC;
+}
+
+hr.pinstripe {
+  border-top: solid 1px #333;
+  border-bottom: solid 4px #333;
+  color: white;
+  background-color: white;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+  margin: 10px 0 25px 0;
+}
+
+#slab { 
+text-align: center;
+}
+section .container {
+  padding: 30px 0;
+}
+#home { 
+margin-bottom: 30px;
+}
+#info { 
+  background-image: url(../img/satin-weave.png);
+}
+#crew { 
+  background-image: url(../img/retina-dust.png);
+  margin-bottom: -20px;
+}
+footer {
+  margin:0;
+  padding:0;
+}
+#social-footer { 
+  margin: 0 0 20px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+#social-footer a { 
+padding-left: 10px;
+}
+
+.rock {
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+      -moz-transition: -moz-transform 0.4s ease-out;
+        -ms-transition: -ms-transform 0.4s ease-out;
+          -o-transition: -o-transform 0.4s ease-out;
+                transition: transform 0.4s ease-out;
+}
+
+*:hover > .rock {
+  -webkit-transform: rotateZ(15deg);
+       -moz-transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+         -o-transform: rotateZ(15deg);
+            transform: rotateZ(15deg);
+}
+
+@-webkit-keyframes bounce {
+   from {
+      margin-left: -25px;
+   }
+   to {
+      margin-left: 25px;
+   }
+}
+
+.headshot { 
+  width: 128px;
+}
+
+
