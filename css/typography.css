@@ -1,30 +1,70 @@
-@font-face {
+/*@font-face {
   font-family: "Hagin Caps Medium";
   src: local("Hagin Caps Medium"),
   local("Hagin Caps Medium"),
-  url(hagin-caps-medium.otf);
+  url(../font/hagin-caps-medium.otf);
   font-weight: bold;
 }
 @font-face {
   font-family: "Hagin Caps Thin";
   src: local("Hagin Caps Thin"),
   local("Hagin Caps Thin"),
-  url(hagin-caps-thin.otf);
+  url(../font/hagin-caps-thin.otf);
 }
 @font-face {
   font-family: "Poly";
   src: local("Poly"),
   local("Poly"),
-  url(poly-regular.otf);
+  url(../font/poly-regular.otf);
 }
 @font-face {
   font-family: "Poly";
   src: local("Poly"),
   local("Poly"),
-  url(poly-italic.otf);
+  url(../font/poly-italic.otf);
   font-style: italic;
 }
-
+*/
+@font-face {
+    font-family: 'Hagin Caps Medium';
+    src: url('../font/hagin-caps-medium-webfont.eot');
+    src: url('../font/hagin-caps-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hagin-caps-medium-webfont.woff') format('woff'),
+         url('../font/hagin-caps-medium-webfont.ttf') format('truetype'),
+         url('../font/hagin-caps-medium-webfont.svg#hagin_caps_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hagin Caps Thin';
+    src: url('../font/hagin-caps-thing-webfont.eot');
+    src: url('../font/hagin-caps-thing-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hagin-caps-thing-webfont.woff') format('woff'),
+         url('../font/hagin-caps-thing-webfont.ttf') format('truetype'),
+         url('../font/hagin-caps-thing-webfont.svg#hagin_caps_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poly';
+    src: url('../font/poly-italic-webfont.eot');
+    src: url('../font/poly-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/poly-italic-webfont.woff') format('woff'),
+         url('../font/poly-italic-webfont.ttf') format('truetype'),
+         url('../font/poly-italic-webfont.svg#polyitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poly';
+    src: url('../font/poly-regular-webfont.eot');
+    src: url('../font/poly-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/poly-regular-webfont.woff') format('woff'),
+         url('../font/poly-regular-webfont.ttf') format('truetype'),
+         url('../font/poly-regular-webfont.svg#polyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   font-size: 100%;
   font-weight: 400;
