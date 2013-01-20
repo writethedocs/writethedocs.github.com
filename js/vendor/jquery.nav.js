@@ -164,6 +164,7 @@
           offset: {
             top: -self.config.scrollOffset
           },
+          margin: true,
           onAfter: function() {
             //Do we need to change the hash?
             if(self.config.changeHash) {
