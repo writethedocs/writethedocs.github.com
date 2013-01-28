@@ -64,13 +64,13 @@
                 <span class="icon-bar"></span>
               </a>
               <div id="scroll-nav">
-                <ul class="nav">
-                  <li class="active"><a href="#home" class="">Home</a></li>
-                </ul>
                 <div class="nav-collapse">
                   <ul class="nav">
+                    <li class="active"><a href="#home" class="">Home</a></li>
                     <li class=""><a href="#info">Info</a></li>
                     <li class=""><a href="#location">Location</a></li>
+                    <!-- <li class=""><a href="#sponsors">Sponsors</a></li> -->
+                    <li class=""><a href="#speakers">Speakers</a></li>
                     <li class=""><a href="#crew">Crew</a></li>
                   </ul>
                 </div>
@@ -85,29 +85,44 @@
               <div id="slab" class="span6 offset3">
                 <h1 class="slab">WRITE THE</h1>
                 <h1 class="slab">DOCS</h1>
-                <p>A two day conference for technical writers,</p>
-                <p>documentarians, and all those who write the docs.</p>
+            <div class="row-fluid">
+                
+                <div class="span8 offset2">
+                  <p>A two day conference for technical writers, documentarians, and all those who write the docs.</p>
+                </div>
+</div>
                 <hr class="pinstripe">
-                <h2 class="slab">APRIL 6-7</h2>
+                <h2 class="slab">APRIL 8-9</h2>
                 <h2 class="slab">Portland Oregon</h2>
               </div>
             </div>
           </div>
         </section>
 
-        <section id="info">
+        <section id="info" class="blocked">
           <div class="container">
             <div class="row-fluid">
-              <div class="span4">
+              <div class="span7">
                 <h1>Information</h1>
                 <p>
-                  <strong>Write The Docs</strong> will be a two day conference focusing on documentation systems, tech writing theory, and information delivery. It will be held in Portland, Oregon on April 6-7 and is a free conference. 
+                  <strong>Write the Docs</strong> is a two day conference focused on documentation systems, tech writing theory, and information delivery. It will be held in on April 8-9 in Portland, Oregon.
+                </p>
+                <p>
+                  Writing and maintaining documentation involves the talents of a multidisciplinary community of technical writers, designers, typesetters, developers, support teams, marketers and many others.
+                </p>
+                <p>
+                  This conference creates a time and a place for this community of <em>documentarians</em> to share information, discuss ideas, and work together to improve the art and science of documentation.
+                </p>
+                <p>
+                  We invite all those who write the docs to spread the word:</p>
+                <p><strong>Docs or it didn't happen!</strong>
                 </p>
               </div>
-              <div class="span4">
+              <div class="span5">
                 <h1>Pre-register Now!</h1>
                 <p>
-                  Tickets will be available soon, but you don't have to wait to get pre-registered. <strong>Sign up below</strong> and you'll be the first to get a ticket. 
+                  Early-bird tickets will be available starting on Monday, February 4th, but you don't have to wait to get pre-registered.</p>
+                <p><strong>Sign up below</strong> and you'll be among the firsts to get a ticket.
                 </p>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
@@ -123,8 +138,24 @@
                   </form>
                 </div>
                 <!--End mc_embed_signup-->
+                <h1>Follow Us Online</h1>
+                <span>
+                 <!-- id="social-footer" class="pull-left"> -->
+                <a href="https://github.com/writethedocs"><img class="rock" src="img/github.png"></a>
+                <a href="https://twitter.com/writethedocs"><img class="rock" src="img/twitter.png"></a>
+                <a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a>
+              </span>
+
               </div>
-              <div class="span4">
+            </div>
+          </div>
+        </section>
+        
+        <section id="location">
+          <div class="map" id="map"></div>
+<!--           <div class="container">
+            <div class="row-fluid">
+              <div class="span12">
                 <h1>Location</h1>
                 <p>
                   The conference will be held in the <strong>Blagen Block</strong> building in the offices of <strong>Thetus Corporation</strong>.
@@ -133,27 +164,141 @@
                   <strong>Blagen Block Building</strong><br>
                   34 NW 1st Ave, 3rd floor<br>
                   Portland, OR 97209<br>
-<!--                  <abbr title="Phone">P:</abbr> (123) 456-7890 -->
                 </address>
+              </div>
+            </div>
+          </div> -->
+        </section>
+
+        <section id="speakers">
+          <div class="container">
+            <div class="row-fluid">
+              <div class="span12">
+                <h1>Call for Proposals</h1>
+                <p>
+                  We are now accepting submissions for presentations.
+                </p>
+                <p> 
+                  We'd love to hear your ideas for talks, on the many and varied aspects of documentations. Our favourite topics are those that deliver hard-earned knowledge based on real-world experience and research. Come share with us!
+                </p>
+                <p>Go ahead, <span class="btn-link" data-toggle="collapse" data-target=".cfp-form" >submit a talk</span>!</p>
+              </div>
+            </div>
+            <div class="collapse cfp-form">
+              <div class="well">
+                  <button type="button" class="close" data-toggle="collapse" data-target=".cfp-form">&times;</button>
+
+              <!-- Begin embedded Google Doc form -->
+              <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dEJqNnJrRl8xaVhmUVhNbm9xcXVkQWc6MQ&amp;ifq" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true;" data-provide="validator">
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.html';}"></iframe>
+                
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h2>Speaker Details</h2>
+                  </div>
+                </div>
+                <div class="row-fluid">
+                  <div class="span6 control-group">
+                    <label class="control-label" for="entry_0">Name <span class="help-inline"></span></label>
+                    <div class="controls">
+                      <input class="span12" type="text" name="entry.0.single" value="" data-validate="required" id="entry_0" />
+                    </div>
+                  </div>
+              <!--   </div>
+                <div class="row-fluid">
+               -->    <div class="span6 control-group">
+                    <label class="control-label" for="entry_7">Email Address <span class="help-inline"></span></label>
+                    <div class="controls">
+                      <input class="span12" type="text" name="entry.7.single" value="" data-validate="required" id="entry_7" />
+                    </div>
+                  </div>
+                </div>
+                <div class="alert alert-info">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <strong>BTW</strong>, if you hate filling out forms in webpages, you can also just email your proposal to Troy Howard at <a href="mailto:thoward37@gmail.com?Subject=[Write%20the%20Docs]%20Talk%20Proposal">thoward37@gmail.com</a>.
+                </div>
+                <div class="row-fluid">
+                  <div class="span12"><h2>Talk Details</h2></div>
+                </div>
+                <div class="row-fluid">
+                  <div class="span6 control-group">
+                    <label class="control-label" for="entry_1">Title <span class="help-inline"></span></label>
+                    <div class="controls">
+                      <input class="span12" type="text" data-validate="required" name="entry.1.single" value="" id="entry_1" />
+                    </div>
+                  </div>
+                  <div class="span6 control-group">
+                    <label class="control-label" for="entry_6">Duration</label>
+                    <label class="radio inline">
+                      <input type="radio" name="entry.6.group" value="20 minutes" id="group_6_1">
+                      20 minutes
+                    </label>
+                    <label class="radio inline">
+                      <input type="radio" name="entry.6.group" checked="" value="40 minutes" id="group_6_2">
+                      40 minutes
+                    </label>
+                  </div>
+                </div>
+                <div class="row-fluid">
+                  <div class="span12 control-group">
+                    <label class="control-label" for="entry_2">Abstract <span class="help-inline"></span></label>
+                    <div class="controls">
+                      <textarea class="span12" name="entry.2.single" rows="14" cols="75" data-validate="required" id="entry_2"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row-fluid">
+                  <div class="span12 control-group">
+                    <label class="checkbox inline">
+                      <input data-validate="required" type="checkbox" name="entry.8.group" value="Yes, I&#39;ve read the Code of Conduct" class="ss-q-checkbox" id="group_8_1">Yes, I&#39;ve read the <a target="_blank" href="code-of-conduct.html">Code of Conduct</a></input>
+                    
+                    <span class="help-inline"></span>
+                    </label>
+                  </div>
+                </div>
+                <input type="hidden" name="pageNumber" value="0" />
+                <input type="hidden" name="backupCache" value="" />
+
+                <input type="submit" name="submit" value="Submit" />
+              </form>
+              <!-- End embedded Google Doc Form -->
+            </div>
+            </div>
+          </div> 
+        </section>
+
+<!--         <section id="sponsors">
+          <div class="container">
+            <div class="row-fluid">
+              <div class="span12">
+                <h1>Sponsors</h1>
+                <ul class="sponsors">
+                  <li><a href="">
+                    <img src="http://somecompany.com/images/logo.png" />
+                    <span class="title">Some Company</span>
+                  </a></li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
-        
-        <div id="location">
-          <div class="map" id="map" style="width: 100%; height: 480px;"></div>
-        </div>
-
-        <section id="crew">
+ -->
+        <section id="crew" class="blocked">
           <div class="container">
-            <div class="row-fluid">
-              <h1>Crew</h1>
-                <div class="media span4">
+            <div class="row">
+              <div class="span12">
+                <h1>Crew</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span4">
+                <div class="media">
                   <a class="pull-left" href="https://twitter.com/ericholscher">
                     <img class="media-object headshot well well-small" src="https://api.twitter.com/1/users/profile_image?screen_name=ericholscher&amp;size=original">
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading">Eric Holscher <small>Organizer</small></h4>
+                    <h4 class="media-heading">Eric Holscher <small>Visionary</small></h4>
                     <p><a href="mailto:ericholscher@gmail.com">eric@ericholscher.com</a></p>
                     <p>
                       <span id="social-footerd">
@@ -163,21 +308,41 @@
                   </p>
                   </div>
                 </div>
-                <div class="media span4">
-                  <a class="pull-left" href="https://twitter.com/thoward37">
-                    <img class="media-object headshot well well-small" src="https://api.twitter.com/1/users/profile_image?screen_name=thoward37&amp;size=original">
-                  </a>
-                  <div class="media-body">
-                    <h4 class="media-heading">Troy Howard <small>Organizer</small></h4>
-                    <p><a href="mailto:thoward37@gmail.com">thoward37@gmail.com</a></p>
-                    <p>
-                      <span id="social-footerd">
-                      <a href="https://github.com/thoward"><img class="rock" src="img/github.png"></a>
-                      <a href="https://twitter.com/thoward37"><img class="rock" src="img/twitter.png"></a>
-                    </span>
-                  </p>
-                  </div>
+              </div>
+              <div class="span4">
+              <div class="media">
+                <a class="pull-left" href="https://twitter.com/thoward37">
+                  <img class="media-object headshot well well-small" src="https://api.twitter.com/1/users/profile_image?screen_name=thoward37&amp;size=original">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Troy Howard <small>Super Genius</small></h4>
+                  <p><a href="mailto:thoward37@gmail.com">thoward37@gmail.com</a></p>
+                  <p>
+                    <span id="social-footerd">
+                    <a href="https://github.com/thoward"><img class="rock" src="img/github.png"></a>
+                    <a href="https://twitter.com/thoward37"><img class="rock" src="img/twitter.png"></a>
+                  </span>
+                </p>
                 </div>
+              </div>
+              </div>
+              <div class="span4">
+              <div class="media">
+                <a class="pull-left" href="https://twitter.com/coderoshi">
+                  <img class="media-object headshot well well-small" src="https://api.twitter.com/1/users/profile_image?screen_name=coderoshi&amp;size=original">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Eric Redmond <small>Documentarian</small></h4>
+                  <p><a href="mailto:eric.redmond@gmail.com">eric.redmond@gmail.com</a></p>
+                  <p>
+                    <span id="social-footerd">
+                    <a href="https://github.com/coderoshi"><img class="rock" src="img/github.png"></a>
+                    <a href="https://twitter.com/coderoshi"><img class="rock" src="img/twitter.png"></a>
+                  </span>
+                </p>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
         </section>
@@ -187,22 +352,25 @@
           <div class="footer">
             <div class="container">
               <span>© Write The Docs 2013</span>
+              <span> </span>
               <span id="social-footer" class="pull-right">
                 <a href="https://github.com/writethedocs"><img class="rock" src="img/github.png"></a>
                 <a href="https://twitter.com/writethedocs"><img class="rock" src="img/twitter.png"></a>
                 <a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a>
+                <a href="code-of-conduct.html">Code of Conduct</a>
               </span>
             </div>
           </div>
         </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script><script src="js/vendor/jquery-1.8.3.min.js"></script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/jquery.slabtext.min.js"></script>
         <script src="js/vendor/jquery.nav.js"></script>
         <script src="js/vendor/jquery.scrollTo.js"></script>
+        <script src="js/vendor/bootstrap-validator.js"></script>
 
         <script src="js/main.js"></script>
 
@@ -260,8 +428,8 @@
 
           // some globals about our map location
           var map;
-          var loc = new google.maps.LatLng(45.525743,-122.67055);
-          var markerPos = new google.maps.LatLng(45.525743,-122.67055);
+          var loc = new google.maps.LatLng(45.5236, -122.6750);
+          var markerPos = new google.maps.LatLng(45.5236, -122.6750);
 
           // called from body.onload
           function initialize() {
@@ -321,7 +489,7 @@
           // note: this will create a JS console error when viewing local via file:// uris 
           var _gaq=[['_setAccount','UA-37795838-1'],['_trackPageview']];
           (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+          g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
           s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
   </body>
