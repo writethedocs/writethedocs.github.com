@@ -153,6 +153,7 @@ footer {
 #scroll-nav {
   display: inline-block;
   text-align: center;
+  margin-bottom: -5px;
 }
 #scroll-nav ul.nav {
   display:inline-block;
@@ -170,4 +171,9 @@ footer {
   #map {
     height: 220px;
   }
+}
+
+.help-inline { 
+  vertical-align: bottom;
+  font-style: italic;
 }

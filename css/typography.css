@@ -35,6 +35,17 @@
     font-weight: normal;
     font-style: normal;
 }
+/*
+@font-face {
+    font-family: 'Hagin Caps Medium';
+    src: url('../font/hagin-caps-medium-webfont.eot');
+    src: url('../font/hagin-caps-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/hagin-caps-medium-webfont.woff') format('woff'),
+         url('../font/hagin-caps-medium-webfont.ttf') format('truetype'),
+         url('../font/hagin-caps-medium-webfont.svg#hagin_caps_mediumregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}*/
 @font-face {
     font-family: 'Hagin Caps Thin';
     src: url('../font/hagin-caps-thing-webfont.eot');
