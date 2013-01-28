@@ -82,7 +82,9 @@ section .container {
 #home { 
 margin-bottom: 30px;
 }
-#info { 
+#info {}
+#crew {}
+.blocked { 
   background-image: url(../img/satin-weave.png);
   -webkit-box-shadow: inset 0px 8px 18px 0px #DDD;
   -moz-box-shadow: inset 0px 8px 18px 0px #DDD;
@@ -91,15 +93,6 @@ margin-bottom: 30px;
   box-shadow: inset 0px 8px 18px 0px #DDD;
   padding-left:1em;
   padding-right:1em;
-}
-#crew { 
-  background-image: url(../img/retina-dust.png);
-  margin-bottom: -20px;
-  -webkit-box-shadow: inset 0px 8px 18px 0px #DDD;
-  -moz-box-shadow: inset 0px 8px 18px 0px #DDD;
-  -ms-box-shadow: inset 0px 8px 18px 0px #DDD;
-  -o-box-shadow: inset 0px 8px 18px 0px #DDD;
-  box-shadow: inset 0px 8px 18px 0px #DDD;
 }
 footer {
   margin:0;
