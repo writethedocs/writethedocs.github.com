@@ -177,3 +177,7 @@ footer {
   vertical-align: bottom;
   font-style: italic;
 }
+
+#map img {
+  max-width: none !important;
+}
