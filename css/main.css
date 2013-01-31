@@ -110,13 +110,11 @@ footer {
   width: 100%;
   height: 480px;
 }
-#sponsors ul.sponsors {
-  color: #fff;
-  list-style: none;
-  float:left;
-}
-#sponsors ul.sponsors .title {
-  display:none;
+#sponsors .sponsors .title {
+  display:block;
+  font-size:80%;
+  margin-left:0.1em;
+  white-space:nowrap;
 }
 
 .rock {
@@ -173,6 +171,16 @@ footer {
   }
 }
 
+@media (max-width: 650px) {
+  .navbar-fixed-top .nav {
+    font-size:80%;
+    margin: 0 10px 0 0;
+  }
+  .navbar-fixed-top .nav li a {
+    padding: 4px 8px 4px;
+  }
+}
+
 .help-inline { 
   vertical-align: bottom;
   font-style: italic;
@@ -180,4 +188,19 @@ footer {
 
 #map img {
   max-width: none !important;
+}
+
+h4.sub {
+  margin-bottom: 1.2em;
+  margin-top: -4px;
+}
+
+.talk-description {
+  display:none;
+}
+#modal {
+}
+#modal .inner {
+  background-color:white;
+  border:1px solid #ccc;
 }
