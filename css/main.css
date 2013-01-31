@@ -115,6 +115,8 @@ footer {
   font-size:80%;
   margin-left:0.1em;
   white-space:nowrap;
+
+  display:none;
 }
 
 .rock {
@@ -199,6 +201,7 @@ h4.sub {
   display:none;
 }
 #modal {
+  display:none;
 }
 #modal .inner {
   background-color:white;
