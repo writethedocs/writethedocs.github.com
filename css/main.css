@@ -200,9 +200,6 @@ h4.sub {
 .talk-description {
   display:none;
 }
-#modal {
-  display:none;
-}
 #modal .inner {
   background-color:white;
   border:1px solid #ccc;

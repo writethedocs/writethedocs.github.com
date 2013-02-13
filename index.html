@@ -47,6 +47,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/typography.css">
   </head>
@@ -207,9 +208,23 @@
               </div>
               <div class="span4">
                 <div class="media">
-                  <a class="pull-left" href="http://kennethreitz.org/">
+                  <a class="pull-left fancybox" href="#kenneth-reitz">
                     <img class="media-object headshot well well-small" src="img/speakers/kenneth-reitz.jpeg">
                   </a>
+                  <div id='kenneth-reitz' class='talk-description' style="display:none">
+                    <h1>Documentation is King</h1>
+                    <div class='speaker'>
+                      <h3>Kenneth Reitz</h3>
+                    </div>
+                    <div class='abstract'>
+                      <p>
+                        Documentation leads to better code.
+                      </p>
+                      <p>
+                        Every design decision should be documented. Imagine not having to have tap your coworkers on the shoulder when you're working on an unfamiliar part of the codebase, or on-boarding a new employee. Imagine being able to make the change, run the tests, and push to production without questioning yourself, because the process was documented—or better yet, automated.
+                      </p>
+                    </div>
+                  </div>
                   <div class="media-body">
                     <h4 class="media-heading">Kenneth Reitz <small>The Pythonista</small></h4>
                     <p>
@@ -224,23 +239,26 @@
               </div>
               <div class="span4">
                 <div class="media">
-                  <a class="pull-left" href="http://jimbojw.com/">
+                  <a class="pull-left fancybox" href="#jim-wilson">
                     <img class="media-object headshot well well-small" src="img/speakers/jim-wilson.jpeg">
                   </a>
-                  
-                  <div class='modal talk-description'>
-                    <h1>Jim's Big Talk</h1>
+                  <div id='jim-wilson' class='talk-description' style="display:none">
+                    <h1>Describe, Defend, Differentiate and Deliver</h1>
                     <div class='speaker'>
-                      <h2>Jim Wilson</h2>
-                      <p>
-                        <time datetime='2013-04-04T14:30Z'>Monday, April 8 at 2:30 PM</time>
-                      </p>
+                      <h3>Jim Wilson</h3>
                     </div>
                     <div class='abstract'>
-                      <p>This is gonna be good.</p>
+                      <p>
+                        Many of us work for companies that fancy themselves software companies. Nominally though, what we produce is functionality, not software. And functionality is only worth while if people can use it.
+                      </p>
+                      <p>
+                        In this talk, I'll advocate for a wholistic approach to software development which incorporates documentation thinking at many levels. Documentation in its many forms can achieve diverse and sometimes accidental goals.
+                      </p>
+                      <p>
+                        With battle scars from real situations, I'll show how you can use documentation not only to describe, but to defend, differentiate and deliver.
+                      </p>
                     </div>
                   </div>
-
                   <div class="media-body">
                     <h4 class="media-heading">Jim Wilson <small>Process Wonk</small></h4>
                     <p>
@@ -396,19 +414,16 @@
           </div>
         </footer>
 
-        <div id='modal'>
-          <a class="close" href="#">Close</a>
-          <div class='inner'></div>
-        </div>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script> -->
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script><script src="js/vendor/jquery-1.8.3.min.js"></script>
-
+        <script src="js/vendor/jquery-1.9.0.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/vendor/jquery.slabtext.min.js"></script>
         <script src="js/vendor/jquery.nav.js"></script>
         <script src="js/vendor/jquery.scrollTo.js"></script>
-        <script src="js/vendor/jquery.modal.js"></script>
+        <script src="js/vendor/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script src="js/vendor/jquery.fancybox.js"></script>
         <script src="js/vendor/bootstrap-validator.js"></script>
 
         <script src="js/main.js"></script>
