@@ -1,0 +1,182 @@
+body {
+  font-family: aleoregular;
+  font-size: 100%;
+  font-size: 1em;
+  min-height: 640px;
+}
+
+/* basic elements */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: aleobold;
+}
+
+h2 {
+  font-family: aleobolditalic;
+}
+
+a {
+  color: #f2b33f;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding-bottom: 20px;
+}
+
+#social-footer a {
+ margin-right: 6px;
+}
+
+/* colors */
+
+.yellow-f {
+  color: #f2b33f;
+}
+
+.yellow-b {
+  background-color: #f2b33f;
+}
+
+.dk-grey-f {
+  color: #363948;
+}
+
+.dk-grey-b {
+  background-color: #363948;
+}
+
+.lt-grey-f {
+  color: #f1f1f1;
+}
+
+.lt-grey-b {
+  background-color: #f1f1f1;
+}
+
+.poster {
+  font-family: aleoregular;
+}
+
+.divider-block {
+  margin: 0;
+  height: 1em;
+  border: none;
+}
+
+.wtd-block, .locale-block {
+  padding: 7.5%;
+}
+
+.wtd-block, .locale-block, .divider-block {
+  width: 38m;
+}
+
+.poster-the {
+  font-family: aleolight;
+}
+
+.poster-write, .poster-docs, .poster-europe {
+  font-family: aleobold;
+}
+
+#home {
+  margin-top: 40px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section.content .span8 {
+  padding: 40px;
+}
+
+section.content h1 {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: right;
+  width: 90%;
+  font-family: aleolight;
+  margin-left: -40px;
+}
+
+section.content p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 320px) {
+  section.content .span8 {
+    padding: 10px;
+  }
+  section.content h1 {
+    margin-left: -10px;
+  }
+}
+
+.radio.inline+.radio.inline {
+  margin-left: 0px;
+}
+
+.radio.inline {
+  margin-right: 10px;
+}
+
+/* Yellow theme content section */
+
+.yellow-sec .span8 {
+  background-color: #f2b33f;
+  color: #363948;
+}
+
+.yellow-sec h1 {
+  background-color: #f1f1f1;
+}
+
+.yellow-sec a {
+  color: #08c;
+}
+
+
+/* Dark Gray theme content section */
+
+.dkgray-sec .span8 {
+  color: #f1f1f1;
+  background-color: #363948;
+}
+
+.dkgray-sec h1 {
+  background-color: #f2b33f;
+  color: #363948;
+}
+
+.dkgray-sec h2, .dkgray-sec h3, .dkgray-src h4 {
+  color: #ffffff;
+}
+
+.dkgray-sec a, .dkgray-sec .btn-link {
+  color: #f2b33f;
+}
+
+
+/* Light Gray theme content section */
+
+.ltgray-sec .span8 {
+  background-color: #f1f1f1;
+  color: #363948;
+}
+
+.ltgray-sec h1 {
+  background-color: #f2b33f;
+/*  color: #363948;*/
+  color: #FFFFFF;
+}
+
+.ltgray-sec h2, .ltgray-sec h3, .ltgray-src h4 {
+  color: #000000;
+}
+
+.ltgray-sec a, .dkgray-sec .btn-link {
+  color: #f2b33f;
+}
