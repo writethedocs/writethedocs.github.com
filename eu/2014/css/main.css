@@ -23,10 +23,12 @@ a {
 footer {
   background-color: #f1f1f1;
   padding-bottom: 20px;
+  line-height: 2em;
 }
 
 #social-footer a {
  margin-right: 6px;
+ line-height: 2em;
 }
 
 /* colors */
@@ -179,4 +181,8 @@ section.content p {
 
 .ltgray-sec a, .dkgray-sec .btn-link {
   color: #f2b33f;
+}
+
+.hidden {
+  display: none;
 }
