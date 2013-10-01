@@ -183,6 +183,12 @@ section.content p {
   color: #f2b33f;
 }
 
+/* */
+
 .hidden {
   display: none;
+}
+
+#social-footer span {
+  display: inline-block;
 }
