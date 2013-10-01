@@ -32,24 +32,22 @@
     <meta itemprop="image" content="http://conf.writethedocs.org/img/logo.png">
     <!-- /Google Plus1 -->
 
-
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="../../css/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/vendor/bootstrap/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="../../css/vendor/slabtext/slabtext.css">
 
     <script src="http://www.google-analytics.com/ga.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
     <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
+    <link rel="stylesheet" href="../../css/vendor/fontello/fontello.css"><!--[if IE 7]>
+    <link rel="stylesheet" href="../../css/vendor/fontello/fontello-ie7.css"><![endif]-->
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/typography.css">
-    <link rel="stylesheet" href="../../css/slabtext.css">
-    <link rel="stylesheet" href="../../css/schedule.css">
-
-    <style>
-    </style>
 
   </head>
-  <body onload="initialize();">
+  <body onload="slabTextHeadlines();">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -221,10 +219,10 @@
               <span>© Write The Docs 2013</span>
               <span> </span>
               <span id="social-footer" class="pull-right">
-                <a href="https://github.com/writethedocs"><img class="rock" src="../../img/github.png"></a>
-                <a href="https://twitter.com/writethedocs"><img class="rock" src="../../img/twitter.png"></a>
-                <a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a>
-                <a href="../../code-of-conduct.html">Code of Conduct</a>
+                <span><a href="https://github.com/writethedocs"><i class="iconf-github-circled-alt2"></i></a></span>
+                <span><a href="https://twitter.com/writethedocs"><i class="iconf-twitter-circled"></i></a></span>
+                <span><a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a></span>
+                <span><a href="../../code-of-conduct.html">Code of Conduct</a></span>
               </span>
             </div>
           </div>
@@ -236,27 +234,72 @@
         <script src="../../js/vendor/jquery-1.9.0.min.js"></script>
         <script src="../../js/vendor/bootstrap.min.js"></script>
         <script src="../../js/vendor/jquery.slabtext.min.js"></script>
+
         <script>
-        $(function(){
-           setTimeout(function() {
-           $('.slab').slabText();} ,100);
-        });
+        // slab text functions for banner
+
+        function slabTextHeadlines() {
+          // auto fit slab text 
+          $(".slab").slabText();
+          // unhide 
+          $(".slab").removeClass('hidden');
+        };
+        
+        // web font loader. don't try to slab text until fonts are loaded.
+        
+        WebFontConfig = {
+          custom: {
+            families: [
+              'aleobold',
+              'aleoitalic',
+              'aleobolditalic',
+              'aleolight',
+              'aleolightitalic',
+              'aleoregular'
+            ],
+            urls: [
+              'css/aleo-bold-webfont.eot',
+              'css/aleo-bold-webfont.woff',
+              'css/aleo-bold-webfont.ttf',
+              'css/aleo-bold-webfont.svg#aleobold',
+              'css/aleo-italic-webfont.eot',
+              'css/aleo-italic-webfont.woff',
+              'css/aleo-italic-webfont.ttf',
+              'css/aleo-italic-webfont.svg',
+              'css/aleo-bolditalic-webfont.eot',
+              'css/aleo-bolditalic-webfont.woff',
+              'css/aleo-bolditalic-webfont.ttf',
+              'css/aleo-bolditalic-webfont.svg',
+              'css/aleo-light-webfont.eot',
+              'css/aleo-light-webfont.woff',
+              'css/aleo-light-webfont.ttf',
+              'css/aleo-light-webfont.svg',
+              'css/aleo-lightitalic-webfont.eot',
+              'css/aleo-lightitalic-webfont.woff',
+              'css/aleo-lightitalic-webfont.ttf',
+              'css/aleo-lightitalic-webfont.svg',
+              'css/aleo-regular-webfont.eot',
+              'css/aleo-regular-webfont.woff',
+              'css/aleo-regular-webfont.ttf',
+              'css/aleo-regular-webfont.svg',
+              'css/typography.css'
+              ]
+          },
+          active: slabTextHeadlines,
+          inactive: slabTextHeadlines
+        };
+        
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+              '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })();
         </script>
 
-<!--        <script src="../../js/vendor/jquery.nav.js"></script>
-        <script src="../../js/vendor/jquery.scrollTo.js"></script>
-        <script src="../../js/vendor/jquery.mousewheel-3.0.6.pack.js"></script>
-        <script src="../../js/vendor/jquery.fancybox.js"></script>
-        <script src="../../js/vendor/bootstrap-validator.js"></script>
--->
-<!--
-        <script src="../../js/main.js"></script>
-
-        <script src="../../js/slabfonts.js"></script>
-
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <script src="../../js/maps.js"></script>
--->
         <script type="text/javascript">
           // google analytics
           // note: this will create a JS console error when viewing local via file:// uris

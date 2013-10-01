@@ -1,0 +1,36 @@
+body {
+  padding-top: 40px;
+}
+
+div.logo {
+  width: 599px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 979px) and (min-width: 640px) {
+  div.logo {
+    width: 450px;
+  }
+}
+
+@media (max-width: 640px) and (min-width: 300px) {
+  div.logo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  div.logo {
+    width: 150px;
+  }
+}
+
+footer {
+  background-color: #E8ECEF;
+  margin: 0 -20px;
+  padding: 0 20px;
+}
+
