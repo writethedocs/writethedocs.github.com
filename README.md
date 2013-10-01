@@ -1,4 +1,5 @@
 writethedocs.github.com
 =======================
 
-Website for WriteTheDocs conference
+Website for the Write The Docs series of events.
+
