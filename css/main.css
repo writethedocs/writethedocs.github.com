@@ -1,10 +1,3 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
 header {
   z-index: 50000;
   background-color: #1D1D1D;
@@ -13,15 +6,15 @@ header {
   text-transform: uppercase;
   font-weight: bold;
 }
-.navbar .btn-navbar, .navbar .btn-navbar:hover { 
+.navbar .btn-navbar, .navbar .btn-navbar:hover {
   background-color: #1D1D1D;
   background-color: rgba(29, 29, 29, 0.66);
 }
-.navbar .btn-navbar:hover { 
+.navbar .btn-navbar:hover {
   background-color: #1D1D1D;
   background-color: rgba(29, 29, 29, 0.88);
 }
-.navbar-collapse { 
+.navbar-collapse {
   background-color: transparent;
 }
 
@@ -32,10 +25,10 @@ header {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-.navbar .nav > li > a:hover, 
+.navbar .nav > li > a:hover,
 .navbar .nav > li > .active a,
 .navbar .nav > a,
-.navbar .nav > a:hover, 
+.navbar .nav > a:hover,
 .navbar .nav > .active a,
 .navbar .nav > .active a:hover {
   color: #fff;
@@ -44,7 +37,7 @@ header {
   text-shadow: none;
 }
 
-header > ul { 
+header > ul {
   margin: 0 0 0 3px;
   float: left;
 }
@@ -54,7 +47,7 @@ header > ul li {
   margin-left: 18px;
 }
 
-.banner { 
+.banner {
   padding-top: 20px;
   padding-bottom: 0;
 }
@@ -73,18 +66,18 @@ hr.pinstripe {
   margin: 10px 0 25px 0;
 }
 
-#slab { 
-text-align: center;
+#slab {
+  text-align: center;
 }
 section .container {
   padding: 20px 0;
 }
-#home { 
-margin-bottom: 30px;
+#home {
+  margin-bottom: 30px;
 }
 #info {}
 #crew {}
-.blocked { 
+.blocked {
   background-image: url(../img/satin-weave.png);
   -webkit-box-shadow: inset 0px 8px 18px 0px #DDD;
   -moz-box-shadow: inset 0px 8px 18px 0px #DDD;
@@ -98,12 +91,12 @@ footer {
   margin:0;
   padding:0;
 }
-#social-footer { 
+#social-footer {
   margin: 0 0 20px 0;
   text-align: center;
   vertical-align: middle;
 }
-#social-footer a { 
+#social-footer a {
   padding-left: 10px;
 }
 #map {
@@ -121,18 +114,18 @@ footer {
 
 .rock {
   -webkit-transition: -webkit-transform 0.4s ease-out;
-      -moz-transition: -moz-transform 0.4s ease-out;
-        -ms-transition: -ms-transform 0.4s ease-out;
-          -o-transition: -o-transform 0.4s ease-out;
-                transition: transform 0.4s ease-out;
+  -moz-transition: -moz-transform 0.4s ease-out;
+  -ms-transition: -ms-transform 0.4s ease-out;
+  -o-transition: -o-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
 }
 
 *:hover > .rock {
   -webkit-transform: rotateZ(15deg);
-       -moz-transform: rotateZ(15deg);
-        -ms-transform: rotateZ(15deg);
-         -o-transform: rotateZ(15deg);
-            transform: rotateZ(15deg);
+  -moz-transform: rotateZ(15deg);
+  -ms-transform: rotateZ(15deg);
+  -o-transform: rotateZ(15deg);
+  transform: rotateZ(15deg);
 }
 
 @-webkit-keyframes bounce {
@@ -144,7 +137,7 @@ footer {
    }
 }
 
-.headshot { 
+.headshot {
   width: 128px;
   height: 128px;
 }
@@ -155,35 +148,24 @@ footer {
   text-align: center;
   margin-bottom: -5px;
 }
+
 #scroll-nav ul.nav {
   display:inline-block;
 }
+
 .nav-collapse {
   text-align:center;
 }
+
 .navbar-fixed-top .container .row-fluid {
   text-align:center;
 }
+
 .navbar-fixed-top .container {
   width: 100%;
 }
-@media (max-width: 767px) {
-  #map {
-    height: 220px;
-  }
-}
 
-@media (max-width: 650px) {
-  .navbar-fixed-top .nav {
-    font-size:80%;
-    margin: 0 10px 0 0;
-  }
-  .navbar-fixed-top .nav li a {
-    padding: 4px 8px 4px;
-  }
-}
-
-.help-inline { 
+.help-inline {
   vertical-align: bottom;
   font-style: italic;
 }
@@ -200,11 +182,64 @@ h4.sub {
 .talk-description {
   display:none;
 }
+
 #modal .inner {
   background-color:white;
   border:1px solid #ccc;
 }
 
-.vidlink { 
+.vidlink {
   padding-top: 50px;
+}
+
+@media (max-width: 767px) {
+  #map {
+    height: 220px;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 750px) {
+  .header-subtitle span {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 750px) and (min-width: 500px) {
+  .header-subtitle span {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 430px) {
+  .header-subtitle span {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 350px) {
+  .header-subtitle span {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 390px) {
+  .header-subtitle span {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .navbar-fixed-top .nav {
+    font-size: 80%;
+    margin: 0 10px 0 0;
+  }
+
+  .navbar-fixed-top .nav li a {
+    padding: 4px 8px 4px;
+  }
+}
+
+.header-subtitle span, .header-subtitle span span {
+  display: inline-block;
 }
