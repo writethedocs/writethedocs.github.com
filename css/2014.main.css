@@ -89,6 +89,11 @@ section.content p {
   }
 }
 
+section.content .speakers {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .radio.inline+.radio.inline {
   margin-left: 0px;
 }
