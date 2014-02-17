@@ -95,6 +95,27 @@ section.content .speakers {
   margin-top: 15px;
 }
 
+.speakers img {
+  width: 200px;
+  margin-bottom: 10px;
+  border-top: solid 10px #f1f1f1;
+  border-left: solid 10px #f1f1f1;
+  border-right: solid 10px #363948;
+  border-bottom: solid 10px #363948;
+  max-width: 90%;
+}
+.speakers .media-heading {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 5px;
+  color: #f1f1f1;
+  font-size: .95em;
+
+}
+.yellow-sec .media-heading a { 
+  color: #f1f1f1;
+
+}
 .radio.inline+.radio.inline {
   margin-left: 0px;
 }
