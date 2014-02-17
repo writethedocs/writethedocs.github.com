@@ -34,7 +34,6 @@
 
     <link rel="stylesheet" href="../../css/vendor/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/vendor/bootstrap/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="../../css/vendor/slabtext/slabtext.css">
     <link rel="stylesheet" href="../../css/font/aleo.css">
     <link rel="stylesheet" href="../../css/font/fontello.css"><!--[if IE 7]>
     <link rel="stylesheet" href="../../css/font/fontello-ie7.css"><![endif]-->
@@ -42,7 +41,6 @@
     <link rel="stylesheet" href="colors.css">
 
     <script src="http://www.google-analytics.com/ga.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
     <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body onload="slabTextHeadlines();">
@@ -52,16 +50,15 @@
 
         <section id="home">
           <div class="container">
-            <div class="row-fluid">
+            <div class="row">
               <div class="span8 offset2">
               <div class="poster">
-              <!--
                 <div class="wtd-block dk-grey-b">
-                  <div class="row-fluid wtd-r1 slab">
-                    <span class="lt-grey-f poster-write slabtext"><span class="yellow-f">W</span>RITE</span>
+                  <div class="row-fluid wtd-r1">
+                    <span class="lt-grey-f poster-write"><span class="yellow-f">W</span>RITE</span>
                   </div>
-                  <div class="row-fluid wtd-r2 slab">
-                  <span class="slabtext">
+                  <div class="row-fluid wtd-r2">
+                  <span>
                       <span class="lt-grey-f poster-the">THE</span>
                       <span class=""></span>
                       <span class="yellow-f poster-docs">DOCS</span>
@@ -70,18 +67,16 @@
                 </div>
                 <hr class="divider-block yellow-b"/>
                 <div class="locale-block lt-grey-b">
-                  <div class="row-fluid slab">
-                    <span class="slabtext"><span class="dk-grey-f">PORTLAND</span><span>&nbsp;</span><span class="yellow-f">503</span></span>
+                  <div class="row-fluid wtd-r3-na">
+                    <span><span class="dk-grey-f">PORTLAND</span><span>&nbsp;</span><span class="yellow-f">503</span></span>
                   </div>
-                  <div class="row-fluid slab">
-                    <span class="dk-grey-f poster-oregon slabtext"><span class="yellow-f">OR</span>EGON</span>
+                  <div class="row-fluid wtd-r4-na">
+                    <span class="dk-grey-f poster-oregon"><span class="yellow-f">OR</span>EGON</span>
                   </div>
-                  <div class="row-fluid slab">
-                    <span class="slabtext"><span class="dk-grey-f">MAY 5-6</span> <span class="yellow-f">2014</span></span>
+                  <div class="row-fluid wtd-r5-na">
+                    <span><span class="dk-grey-f">MAY 5-6</span> <span class="yellow-f">2014</span></span>
                   </div>
                 </div>
-                -->
-                <img src="../../img/na.png">
               </div>
               </div>
             </div>
@@ -90,7 +85,7 @@
 
         <section id="about" class="yellow-sec content">
           <div class="container">
-            <div class="row-fluid">
+            <div class="row">
               <div class="span8 offset2">
                 <h1>ABOUT</h1>
                   <p>
@@ -120,7 +115,7 @@
 
         <section id="email" class="dkgray-sec content">
           <div class="container">
-            <div class="row-fluid">
+            <div class="row">
               <div class="span8 offset2">
                 <h1>SIGN UP</h1>
                 <p>
@@ -145,7 +140,7 @@
         
         <section id="cfp" class="yellow-sec content">
           <div class="container">
-            <div class="row-fluid">
+            <div class="row">
               <div class="span8 offset2">
                 <h1>SPEAKERS</h1>
                 <h3>Call For Proposals</h3>
@@ -258,7 +253,7 @@ check out <a class="reference external" href="http://docs.writethedocs.org/en/la
 <!--        <section id="cfp" class="ltgray-sec content"> -->
         <section id="cfp" class="dkgray-sec content">
           <div class="container">
-            <div class="row-fluid">
+            <div class="row">
               <div class="span8 offset2">
                 <h1>SPONSORS</h1>
                 <h3>Call For Sponsorship</h3>
@@ -275,7 +270,7 @@ check out <a class="reference external" href="http://docs.writethedocs.org/en/la
 
         <section id="info" class="yellow-sec content">
           <div class="container">
-            <div class="row-fluid">
+            <div class="row">
               <div class="span8 offset2">
                 <h1>CONTACT</h1>
                   <p>
@@ -307,71 +302,6 @@ check out <a class="reference external" href="http://docs.writethedocs.org/en/la
 
         <script src="../../js/vendor/jquery-1.9.0.min.js"></script>
         <script src="../../js/vendor/bootstrap.min.js"></script>
-        <script src="../../js/vendor/jquery.slabtext.min.js"></script>
-
-        <script>
-        // slab text functions for banner
-
-        function slabTextHeadlines() {
-          // auto fit slab text 
-          $(".slab").slabText();
-          // unhide 
-          $(".slab").removeClass('hidden');
-        };
-        
-        // web font loader. don't try to slab text until fonts are loaded.
-        
-        WebFontConfig = {
-          custom: {
-            families: [
-              'aleobold',
-              'aleoitalic',
-              'aleobolditalic',
-              'aleolight',
-              'aleolightitalic',
-              'aleoregular'
-            ],
-            urls: [
-              'css/font/aleo-bold-webfont.eot',
-              'css/font/aleo-bold-webfont.woff',
-              'css/font/aleo-bold-webfont.ttf',
-              'css/font/aleo-bold-webfont.svg#aleobold',
-              'css/font/aleo-italic-webfont.eot',
-              'css/font/aleo-italic-webfont.woff',
-              'css/font/aleo-italic-webfont.ttf',
-              'css/font/aleo-italic-webfont.svg',
-              'css/font/aleo-bolditalic-webfont.eot',
-              'css/font/aleo-bolditalic-webfont.woff',
-              'css/font/aleo-bolditalic-webfont.ttf',
-              'css/font/aleo-bolditalic-webfont.svg',
-              'css/font/aleo-light-webfont.eot',
-              'css/font/aleo-light-webfont.woff',
-              'css/font/aleo-light-webfont.ttf',
-              'css/font/aleo-light-webfont.svg',
-              'css/font/aleo-lightitalic-webfont.eot',
-              'css/font/aleo-lightitalic-webfont.woff',
-              'css/font/aleo-lightitalic-webfont.ttf',
-              'css/font/aleo-lightitalic-webfont.svg',
-              'css/font/aleo-regular-webfont.eot',
-              'css/font/aleo-regular-webfont.woff',
-              'css/font/aleo-regular-webfont.ttf',
-              'css/font/aleo-regular-webfont.svg'
-              ]
-          },
-          active: slabTextHeadlines,
-          inactive: slabTextHeadlines
-        };
-        
-        (function() {
-          var wf = document.createElement('script');
-          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-              '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-          wf.type = 'text/javascript';
-          wf.async = 'true';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(wf, s);
-        })();
-        </script>
 
         <script type="text/javascript">
           // google analytics
