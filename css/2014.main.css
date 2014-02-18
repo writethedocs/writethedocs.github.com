@@ -119,6 +119,8 @@ nav ul li a {
   display: block;
   padding: 0 20px;
   color: #08c;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 nav ul li a:hover {
