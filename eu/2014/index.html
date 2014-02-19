@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="../../css/2014.main.css">
     <link rel="stylesheet" href="colors.css">
 
-    <script src="http://www.google-analytics.com/ga.js"></script>
+<!--    <script src="http://www.google-analytics.com/ga.js"></script> -->
     <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
@@ -83,6 +83,22 @@
             </div>
           </div>
         </section>
+
+        <div class="container">
+          <div class="row">
+            <nav class="span8 offset2 lt-grey-b">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#attend">Attend</a></li>
+                <li><a href="#email">Subscribe</a></li>
+                <li><a href="#cfp">Speakers</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
 
         <section id="about" class="yellow-sec content">
           <div class="container">
@@ -438,7 +454,23 @@
 
         <script src="../../js/vendor/jquery-1.9.0.min.js"></script>
         <script src="../../js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript">
+          $(function() {
+            $(document).on("click", "nav ul li a", function(event) {
+              var el = $(event.target);
+              var target = $(el.attr("href"));
+              event.preventDefault();
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top - 60
+                }, 750);
+                return false;
+              }
+            });
+          });
+        </script>
 
+<!--
         <script type="text/javascript">
           // google analytics
           // note: this will create a JS console error when viewing local via file:// uris
@@ -446,6 +478,6 @@
           (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
           g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
           s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        </script> -->
   </body>
 </html>

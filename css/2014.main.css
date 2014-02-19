@@ -57,7 +57,7 @@ footer {
 }
 
 #home {
-  margin-top: 40px;
+  margin-top: 63px;
 }
 
 section {
@@ -94,6 +94,39 @@ section.content .speakers {
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  padding: 20px 40px;
+  border-bottom: 3px solid white;
+  z-index: 100;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  white-space: nowrap;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 20px;
+  color: #08c;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: #08c;
+}
+
 
 .speakers img {
   width: 200px;
