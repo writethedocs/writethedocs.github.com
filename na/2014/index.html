@@ -48,6 +48,20 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+        <div class="container">
+          <div class="row">
+            <nav class="span8 offset2 lt-grey-b">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#email">Subscribe</a></li>
+                <li><a href="#cfp">Submit a talk</a></li>
+                <li><a href="http://conf.writethedocs.org/eu/2014/index.html" target="_self">EU Conference</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>       
+
         <section id="home">
           <div class="container">
             <div class="row">
@@ -302,6 +316,22 @@ check out <a class="reference external" href="http://docs.writethedocs.org/en/la
 
         <script src="../../js/vendor/jquery-1.9.0.min.js"></script>
         <script src="../../js/vendor/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+           $(function() {
+             $(document).on("click", "nav ul li a", function(event) {
+               var el = $(event.target);
+               var target = $(el.attr("href"));
+               event.preventDefault();
+               if (target.length) {
+                 $('html,body').animate({
+                   scrollTop: target.offset().top - 60
+                 }, 500);
+                 return false;
+               }
+             });
+           });
+         </script>
 
         <script type="text/javascript">
           // google analytics
