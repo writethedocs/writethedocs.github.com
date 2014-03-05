@@ -66,6 +66,9 @@ footer {
   color: #f2b33f;
 }
 
+.dkgray-sec .media-heading a, .dkgray-sec .media-heading .btn-link {
+  color: #f1f1f1;
+}
 
 /* Light Gray theme content section */
 

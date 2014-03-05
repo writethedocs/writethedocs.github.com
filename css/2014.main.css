@@ -5,7 +5,10 @@ body {
   min-height: 640px;
   min-width: 280px;
 }
-
+.navbar-inner{
+  background: none;
+  border: none;
+}
 /* basic elements */
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +70,10 @@ section {
 section.content .span8 {
   padding: 40px;
 }
+ .navbar .span8 {
+   padding-left: 40px;
+   padding-right: 40px;
+ }
 
 section.content h1 {
   display: inline-block;
@@ -127,14 +134,22 @@ nav ul li a:hover {
   color: #08c;
 }
 
+.media:first-child {
+  margin-top: 15px;
+}
 
 .speakers img {
   width: 200px;
   margin-bottom: 10px;
   border-top: solid 10px #f1f1f1;
   border-left: solid 10px #f1f1f1;
+  /*
   border-right: solid 10px #363948;
   border-bottom: solid 10px #363948;
+  */
+  border-right: solid 10px #f2b33f;
+  border-bottom: solid 10px #f2b33f;
+  
   max-width: 90%;
 }
 .speakers .media-heading {
@@ -163,6 +178,14 @@ nav ul li a:hover {
 
 #social-footer span {
   display: inline-block;
+}
+
+#sponsors .span12 img {
+  max-height: 360px;
+}
+
+#sponsors .span6 img {
+  max-height: 120px;
 }
 
 /* font sizes for slab 
@@ -289,6 +312,9 @@ nav ul li a:hover {
   .offset2 {
     margin-left: 104px;
   }
+  .navbar .container {
+    width: 724px;    
+  }
   .wtd-r1{
     font-size: 8.91017077922078em;
     word-spacing: 0.0em;
@@ -332,7 +358,7 @@ nav ul li a:hover {
 }
 @media (min-width: 641px) and (max-width: 767px) {
   /* unit = 51 */
-  .container { 
+  .container, .navbar .container { 
     width: 588px;
   }
   .offset2 {
@@ -384,7 +410,7 @@ nav ul li a:hover {
 }
 @media (min-width: 480px) and (max-width: 640px) {
   /* u = 39 */
-  .container { 
+  .container, .navbar .container { 
     width: 444px;
   }
   .offset2 { 
@@ -436,7 +462,7 @@ nav ul li a:hover {
 }
 @media (max-width: 479px) {
   /* u = 24 */
-  .container {
+  .container, .navbar .container {
     width: 266px;
   }
   h3 {
