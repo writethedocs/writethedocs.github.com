@@ -32,7 +32,7 @@ footer {
 
 /* Yellow theme content section */
 
-.yellow-sec .span8 {
+.yellow-sec .span8, .yellow-sec .span10 {
   background-color: #f2b33f;
   color: #363948;
 }
@@ -48,7 +48,7 @@ footer {
 
 /* Dark Gray theme content section */
 
-.dkgray-sec .span8 {
+.dkgray-sec .span8, .dkgray-sec .span10 {
   color: #f1f1f1;
   background-color: #363948;
 }
@@ -72,7 +72,7 @@ footer {
 
 /* Light Gray theme content section */
 
-.ltgray-sec .span8 {
+.ltgray-sec .span8, .ltgray-sec .span10 {
   background-color: #f1f1f1;
   color: #363948;
 }
