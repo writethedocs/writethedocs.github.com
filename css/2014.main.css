@@ -28,6 +28,10 @@ footer {
   line-height: 2em;
 }
 
+strong {
+  font-family: aleobold;
+}
+
 #social-footer a {
  margin-right: 6px;
  line-height: 2em;
@@ -67,13 +71,13 @@ section {
   margin-bottom: 80px;
 }
 
-section.content .span8 {
+section.content .span8, section.content .span10 {
   padding: 40px;
 }
- .navbar .span8 {
-   padding-left: 40px;
-   padding-right: 40px;
- }
+.navbar .span8, .navbar .span10 {
+ padding-left: 40px;
+ padding-right: 40px;
+}
 
 section.content h1 {
   display: inline-block;
@@ -89,7 +93,7 @@ section.content p {
 }
 
 @media (max-width: 320px) {
-  section.content .span8 {
+  section.content .span8, section.content .span10 {
     padding: 10px;
   }
   section.content h1 {
@@ -149,7 +153,7 @@ nav ul li a:hover {
   */
   border-right: solid 10px #f2b33f;
   border-bottom: solid 10px #f2b33f;
-  
+
   max-width: 90%;
 }
 .speakers .media-heading {
@@ -160,7 +164,7 @@ nav ul li a:hover {
   font-size: .95em;
 
 }
-.yellow-sec .media-heading a { 
+.yellow-sec .media-heading a {
   color: #f1f1f1;
 
 }
@@ -188,10 +192,10 @@ nav ul li a:hover {
   max-height: 120px;
 }
 
-/* font sizes for slab 
+/* font sizes for slab
 */
 
-.wtd-r1, .wtd-r2, 
+.wtd-r1, .wtd-r2,
 .wtd-r3, .wtd-r4, .wtd-r5,
 .wtd-r3-na, .wtd-r4-na, .wtd-r5-na {
   display: inline-block;
@@ -203,7 +207,7 @@ nav ul li a:hover {
 
 
 
-/* 
+/*
 
   word spaces = (px / font-px / 10 * 2 )em
 */
@@ -313,7 +317,7 @@ nav ul li a:hover {
     margin-left: 104px;
   }
   .navbar .container {
-    width: 724px;    
+    width: 724px;
   }
   .wtd-r1{
     font-size: 8.91017077922078em;
@@ -358,7 +362,7 @@ nav ul li a:hover {
 }
 @media (min-width: 641px) and (max-width: 767px) {
   /* unit = 51 */
-  .container, .navbar .container { 
+  .container, .navbar .container {
     width: 588px;
   }
   .offset2 {
@@ -410,10 +414,10 @@ nav ul li a:hover {
 }
 @media (min-width: 480px) and (max-width: 640px) {
   /* u = 39 */
-  .container, .navbar .container { 
+  .container, .navbar .container {
     width: 444px;
   }
-  .offset2 { 
+  .offset2 {
     margin-left: 39px;
   }
   .span8 {
@@ -471,10 +475,10 @@ nav ul li a:hover {
   #mc_embed_signup {
     margin-left: -30px;
   }
-  .offset2 { 
+  .offset2 {
     margin-left: 0px;
   }
-  .span8 { 
+  .span8 {
     width: 266px;
   }
   .wtd-r1{
@@ -517,7 +521,7 @@ nav ul li a:hover {
     word-spacing: -0.035983409090909094em;
     letter-spacing: 0.0009388235294117647em;
   }
-  section.content h1 { 
+  section.content h1 {
     width: 105%;
   }
 }
