@@ -2,965 +2,803 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Write The Docs NA - A two day conference for technical writers, documentarians, and all those who write the docs.</title>
-    <meta name="description" content="A two day conference for technical writers, documentarians, and all those who write the docs.">
-
-    <meta name="author" content="Write The Docs">
-    <meta name="ROBOTS" content="ALL">
-
-    <meta name="geo.country" content="US">
-    <meta name="dc.language" content="en">
-    <meta name="geo.placename" content="Portland, Oregon">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Open Graph protocol -->
-    <meta property="og:image" content="http://conf.writethedocs.org/img/logo.png">
-    <meta property="og:title" content="A two day conference for technical writers, documentarians, and all those who write the docs.">
-    <meta property="og:type" content="conference">
-    <meta property="og:url" content="http://conf.writethedocs.org/na/2014/index.html">
-    <meta property="og:site_name" content="Write The Docs">
-    <!-- /Open Graph protocol -->
-
-    <!-- Google Plus1 -->
-    <meta itemprop="name" content="Write The Docs">
-    <meta itemprop="description" content="A two day conference for technical writers, documentarians, and all those who write the docs.">
-    <meta itemprop="image" content="http://conf.writethedocs.org/img/logo.png">
-    <!-- /Google Plus1 -->
-
-    <link rel="stylesheet" href="../../css/vendor/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/vendor/bootstrap/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="../../css/font/aleo.css">
-    <link rel="stylesheet" href="../../css/font/fontello.css"><!--[if IE 7]>
-    <link rel="stylesheet" href="../../css/font/fontello-ie7.css"><![endif]-->
-    <link rel="stylesheet" href="../../css/2014.main.css">
-    <link rel="stylesheet" href="colors.css">
-
-    <script src="http://www.google-analytics.com/ga.js"></script>
-    <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  </head>
-  <body onload="slabTextHeadlines();">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+   <head>
+      <meta charset="utf-8">
+      <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+      <title>Write The Docs NA - A two day conference for technical writers, documentarians, and all those who write the docs.</title>
+      <meta content="A two day conference for technical writers, documentarians, and all those who write the docs." name="description">
+      <meta content="Write The Docs" name="author">
+      <meta content="ALL" name="ROBOTS">
+      <meta content="US" name="geo.country">
+      <meta content="en" name="dc.language">
+      <meta content="Portland, Oregon" name="geo.placename">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport"><!-- Open Graph protocol -->
+      <meta content="http://conf.writethedocs.org/img/logo.png" property="og:image">
+      <meta content="A two day conference for technical writers, documentarians, and all those who write the docs." property="og:title">
+      <meta content="conference" property="og:type">
+      <meta content="http://conf.writethedocs.org/na/2014/index.html" property="og:url">
+      <meta content="Write The Docs" property="og:site_name"><!-- /Open Graph protocol -->
+      <!-- Google Plus1 -->
+      <meta content="Write The Docs" itemprop="name">
+      <meta content="A two day conference for technical writers, documentarians, and all those who write the docs." itemprop="description">
+      <meta content="http://conf.writethedocs.org/img/logo.png" itemprop="image"><!-- /Google Plus1 -->
+      <link href="../../css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+      <link href="../../css/vendor/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="../../css/font/aleo.css" rel="stylesheet">
+      <link href="../../css/font/fontello.css" rel="stylesheet"><!--[if IE 7]>
+       <link rel="stylesheet" href="../../css/font/fontello-ie7.css"><![endif]-->
+      <link href="../../css/2014.main.css" rel="stylesheet">
+      <link href="colors.css" rel="stylesheet">
+      <script src="http://www.google-analytics.com/ga.js">
+      </script>
+      <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js">
+      </script>
+   </head>
+   <body onload="slabTextHeadlines();">
+      <!--[if lt IE 7]>
+               <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+           <![endif]-->
       <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-
-            <!-- Everything you want hidden at 940px or less, place within here -->
-            <div class="nav-collapse collapse">
-              <div class="row">
-                <div class="span8 offset2 lt-grey-b">
-                  <ul class="nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#cfp">Speakers</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#venue">Venue</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-        <section id="home">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-              <div class="poster">
-                <div class="wtd-block dk-grey-b">
-                  <div class="row-fluid wtd-r1">
-                    <span class="lt-grey-f poster-write"><span class="yellow-f">W</span>RITE</span>
-                  </div>
-                  <div class="row-fluid wtd-r2">
-                  <span>
-                      <span class="lt-grey-f poster-the">THE</span>
-                      <span class=""></span>
-                      <span class="yellow-f poster-docs">DOCS</span>
-                  </span>
-                  </div>
-                </div>
-                <hr class="divider-block yellow-b"/>
-                <div class="locale-block lt-grey-b">
-                  <div class="row-fluid wtd-r3-na">
-                    <span><span class="dk-grey-f">PORTLAND</span><span>&nbsp;</span><span class="yellow-f">503</span></span>
-                  </div>
-                  <div class="row-fluid wtd-r4-na">
-                    <span class="dk-grey-f poster-oregon"><span class="yellow-f">OR</span>EGON</span>
-                  </div>
-                  <div class="row-fluid wtd-r5-na">
-                    <span><span class="dk-grey-f">MAY 5-6</span> <span class="yellow-f">2014</span></span>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div class="container" style="margin-top: -40px; margin-bottom: 40px">
-            <center>
-              <h3 style="display: inline-block;  margin: 20px 10px;">
-                <a href="http://www.writethedocs.org/conf/na/2015/" class="dk-grey-f yellow-b" style="font-size: 1.25em; padding: .5em;">Join us for our 2015 conference!</a>
-              </h3>
-            </center>
-          </div>
-        </section>
-
-
-        <section>
-          <div class="container" style="margin-top: -40px; margin-bottom: 40px">
-            <center>
-              <h3 style="display: inline-block;  margin: 20px 10px;">
-                <a href="http://videos.writethedocs.org/category/2/na-2014" class="dk-grey-f yellow-b" style="font-size: 1.25em; padding: .5em;">View the videos</a>
-              </h3>
-            </center>
-          </div>
-        </section>
-
-        <section id="about" class="yellow-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>ABOUT</h1>
-                <p>
-                  <strong>Write the Docs</strong> is a two-day conference focused on documentation systems, tech writing theory, and information delivery.
-                </p>
-                <p>
-                  Writing and maintaining documentation involves the talents of a multidisciplinary community of technical writers, designers, typesetters, developers, support teams, marketers, and many others.
-                </p>
-                <p>
-                  This conference creates a time and a place for this community of <em>documentarians</em> to share information, discuss ideas, and work together to improve the art and science of documentation.
-                </p>
-                <p>
-                  We invite all those who write the docs to spread the word:</p>
-                <p>
-                  <strong>Docs or it didn't happen!</strong>
-                </p>
-
-                <h3>ANNOUNCEMENTS</h3>
-                <ul>
-                  <li>
-                    <a href="http://docs.writethedocs.org/2014/blog/announcing-pdx-venue-tickets/">Announcing Portland Venue and Ticket Sales</a>
-                  </li>
-                  <li>
-                    <a href="http://docs.writethedocs.org/en/latest/2014/blog/announcing-write-the-docs-2014/">Announcing Write the Docs 2014</a>
-                  </li>
-                </ul>
-                <p></p>
-
-                <h3>SIGN UP</h3>
-                <p>
-                    Sign up for the mailing list to get announcements and updates about the conference.
-                </p>
-                <div id="mc_embed_signup">
-                  <form action="http://writethedocs.us6.list-manage.com/subscribe/post?u=94377ea46d8b176a11a325d03&amp;id=dcf0ed349b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                    <div class="mc-field-group input-append">
-                      <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
-                    </div>
-                    <div id="mce-responses" class="clear">
-                      <div class="response" id="mce-error-response" style="display:none"></div>
-                      <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="cfp" class="dkgray-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>SPEAKERS</h1>
-                <h3>Current Speakers</h3>
-
-                <p>
-                    Check out the <a href="http://docs.writethedocs.org/2014/na/talks/">full descriptions here</a>.
-                </p>
-
-                <div class="speakers">
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#kenneth-reitz-documentation-at-scale">
-                        <img src="../../img/speakers/kenneth-reitz.jpeg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/kennethreitz">Kenneth Reitz</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#susan-salituro-from-docs-to-engineering-and-back-again">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/susan-salituro.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://www.linkedin.com/pub/susan-salituro/0/791/656">Susan Salituro</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#geoffrey-grosenbach-graphical-explanations">
-                        <img src="../../img/speakers/geoffrey-grosenbach.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/topfunky">Geoffrey Grosenbach</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#amalia-hawkins-ignorance-is-strength-writing-documentation-by-learning-as-you-go">
-                        <img src="../../img/speakers/amalia-hawkins.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/starsseldomseen">Amalia Hawkins</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#scot-marvin-wabi-sabi-writing">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/scot-marvin.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/scotmarvin">Scot Marvin</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#lauren-rother-we-strongly-recommend-you-write-best-practices">
-                        <img src="../../img/speakers/lauren-rother.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://github.com/laurenrother">Lauren Rother</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#mark-tattersall-documentation-as-product">
-                        <img src="../../img/speakers/mark-tattersall.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/foxes96">Mark Tattersall</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#zach-corleissen-more-than-a-reference-better-apis-through-empathy">
-                        <img src="../../img/speakers/zach-corleissen.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="http://moz.com/about/team/zach">Zach Corleissen</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#patrick-arlt-ditch-your-cms-with-git-and-static-site-generators">
-                        <img src="../../img/speakers/patrick-arlt.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/patrickarlt">Patrick Arlt</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#juliana-arrighi-cultivating-biological-documentation">
-                        <img src="../../img/speakers/juliana-arrighi.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/juliuliana">Juliana Arrighi</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#mo-nishiyama-did-it-in-minutes-the-art-of-documenting-meeting-notes">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/mo-nishiyama.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://www.linkedin.com/pub/mo-nishiyama/42/833/b3b">Mo Nishiyama</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#christina-elmore-death-by-documentation">
-                        <img src="../../img/speakers/christina-elmore.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/elchristina">Christina Elmore</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#brian-troutwine-instrumentation-as-living-documentation-teaching-humans-about-complex-systems">
-                        <img src="../../img/speakers/brian-troutwine.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/bltroutwine">Brian Troutwine</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#amelia-abreu-data-documentation-memory">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/amelia-abreu.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/ameliaabreu">Amelia Abreu</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#matthew-lyon-minimum-viable-documentation">
-                        <img src="../../img/speakers/matthew-lyon.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/mattly">Matthew Lyon</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#britta-gustafson-strategies-to-fight-documentation-inertia">
-                        <img src="../../img/speakers/britta-gustafson.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/brittagus">Britta Gustafson</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#christopher-kelleher-make-music-not-noise">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/chris-kelleher.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="http://christopherkelleher.me/">Christopher Kelleher</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#lois-patterson-what-makes-good-api-documentation-an-example-based-approach">
-                        <img src="../../img/speakers/lois-patterson.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/loisrp">Lois Patterson</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#simeon-franklin-marko-gargenta-techdocs-at-twitter-creating-the-culture-of-documentation">
-                        <img src="../../img/speakers/simeon-franklin.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/simeonfranklin">Simeon Franklin</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#heidi-waterhouse-the-new-sheriff-in-town-bringing-documentation-out-of-chaos">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/heidi-waterhouse.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/wiredferret">Heidi Waterhouse</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#r-n-homer-christensen-flow-a-permaculture-approach-to-documentation-projects">
-                        <img src="../../img/speakers/homer-christensen.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://www.linkedin.com/in/homerchristensen">Homer Christensen</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#ali-spivak-communities-are-awesome">
-                        <img src="../../img/speakers/ali-spivak.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/alispivak">Ali Spivak</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#jared-bhatti-the-getting-stopped-experience-improving-your-contents-first-impression">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/jared-bhatti.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/jaredbhatti">Jared Bhatti</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#eric-holmes-stem-rising-strategies-for-teaching-technical-writing-at-the-collegiate-level">
-                        <img src="../../img/speakers/eric-holmes.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="#">Eric Holmes</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#drew-jaynes-putting-the-docs-cart-before-the-standards-horse">
-                        <img src="../../img/speakers/drew-jaynes.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/DrewAPicture">Drew Jaynes</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#ls-cook-scale-for-support-without-losing-personality">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/ls-cook.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="http://www.hackeress.com">L.S. Cook</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#steve-stegelin-bringing-ua-into-the-ux-and-vice-versa">
-                        <img src="../../img/speakers/steve-stegelin.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/Stegelin">Steve Stegelin</a></h4>
-                    </div>
-                  </div>
-
-                  <!-- row of speakers -->
-                  <div class="row-fluid">
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#alex-gaynor-documenting-domain-specific-knowledge">
-                        <img src="../../img/speakers/alex-gaynor.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="http://alexgaynor.net/2014/mar/20/house-twitter/">Alex Gaynor</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#james-pearson-don-t-write-documentation">
-                        <img style="margin-bottom: 10px;" src="../../img/speakers/james-pearson.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/xiongchiamiov">James Pearson</a></h4>
-                    </div>
-
-                    <div class="span4">
-                      <a href="http://docs.writethedocs.org/2014/na/talks/#bryan-helmig-your-api-consumers-aren-t-who-you-think-they-are">
-                        <img src="../../img/speakers/bryan-helmig.jpg" width="200">
-                      </a>
-                      <h4 class="media-heading"><a href="https://twitter.com/bryanhelmig">Bryan Helmig</a></h4>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="events" class="yellow-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>EVENTS</h1>
-                <h3>Hike</h3>
-                <p>
-                    We will be having a hike on Sunday before the conference.
-                    Portland is one of the most beautiful cities in the USA,
-                    and has wilderness inside city limits.
-                    Come see what beauty hides in the hills behind town.
-                </p>
-                <p>
-                  The hike will leave at 1pm.
-                  More information can be found on the <a href="http://docs.writethedocs.org/2014/na/hike/">Hike page</a>.
-                </p>
-                <h3>Pre-Registration</h3>
-                <p>
-                  Urban Airship will be kindly hosting the pre-registration event this year.
-                  Get your badges early,
-                  and get to know some other attendees before the conference starts.
-                </p>
-                <p>
-                  Urban airship is located at <a href="http://goo.gl/maps/hjm90">1417 NW Everett St</a>.
-                  The event will run from <strong>5pm to 8pm on Sunday, May 4</strong>.
-                </p>
-
-                <h3>Party</h3>
-                  <p>Join us at Ground Kontrol on Monday night for classic arcade games and
-                  drinks. Bring your badge, grab a refreshment, and challenge someone to a
-                  <a class="reference external" href="http://www.flickr.com/photos/kennethreitz/8635574190/">4-player Pac Man</a> match.</p>
-                  <p><a class="reference external" href="http://groundkontrol.com/">Ground Kontrol</a> is located at 511 NW Couch St. We’ll be there from
-                  7:00-9:00 PM Monday night.</p>
-                  <p>If Tekken or Frogger isn’t your thing, we’re also having an event at <a href="http://goo.gl/maps/iQVoP">Henry's Tavern</a>.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <section id="schedule" class="dkgray-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>SCHEDULE</h1>
-                
-<p> 
-Full abstracts are <a href="http://docs.writethedocs.org/2014/na/talks/">also available</a>.
-</p>
-
-<div class="section" id="day-0">
-<h2>Day 0</h2>
-<p>Join us for a Pre-Registration event at Urban Airship (<a class="reference external" href="http://goo.gl/maps/jvk49">Map</a>) held from 5-8pm.
-Grab your badge and shirt early,
-and get to know other documentarians with provided drinks.</p>
-</div>
-<div class="section" id="day-1">
-<h2>Day 1</h2>
-<p>Sponsored by <a class="reference external" href="https://www.atlassian.com/">Atlassian</a></p>
-<div class="section" id="main-track">
-<h3>Main Track</h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<colgroup>
-<col width="22%">
-<col width="78%">
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Time</th>
-<th class="head">Session</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>8:00</td>
-<td>Venue Open</td>
-</tr>
-<tr class="row-odd"><td>8:15</td>
-<td>Breakfast</td>
-</tr>
-<tr class="row-even"><td>9:00</td>
-<td>Eric Holscher - Introduction</td>
-</tr>
-<tr class="row-odd"><td>9:20</td>
-<td>R. N. Homer Christensen - Flow: A Permaculture Approach to Documentation Projects</td>
-</tr>
-<tr class="row-even"><td>10:00</td>
-<td>Ali Spivak - Communities are Awesome</td>
-</tr>
-<tr class="row-odd"><td>10:20</td>
-<td>Heidi Waterhouse - The New Sheriff in Town: Bringing Documentation Out of Chaos</td>
-</tr>
-<tr class="row-even"><td>10:40</td>
-<td>Break</td>
-</tr>
-<tr class="row-odd"><td>11:00</td>
-<td>Amalia Hawkins - Ignorance Is Strength: Writing Documentation By Learning As You Go</td>
-</tr>
-<tr class="row-even"><td>11:40</td>
-<td>Mo Nishiyama - Did It In Minutes: The Art of Documenting Meeting Notes</td>
-</tr>
-<tr class="row-odd"><td>12:00</td>
-<td>Nina Vyedin - Hacking the English Language</td>
-</tr>
-<tr class="row-even"><td>12:20</td>
-<td>Lunch</td>
-</tr>
-<tr class="row-odd"><td>13:20</td>
-<td>Lightning talks</td>
-</tr>
-<tr class="row-even"><td>13:50</td>
-<td>Alex Gaynor - Documenting Domain Specific Knowledge</td>
-</tr>
-<tr class="row-odd"><td>14:10</td>
-<td>Geoffrey Grosenbach - Graphical Explanations</td>
-</tr>
-<tr class="row-even"><td>14:30</td>
-<td>Matthew Lyon - Minimum Viable Documentation</td>
-</tr>
-<tr class="row-odd"><td>14:50</td>
-<td>Lois Patterson - What Makes Good API Documentation: An Example-Based Approach</td>
-</tr>
-<tr class="row-even"><td>15:10</td>
-<td>Kenneth Reitz - Documentation at Scale</td>
-</tr>
-<tr class="row-odd"><td>15:30</td>
-<td>Break</td>
-</tr>
-<tr class="row-even"><td>15:50</td>
-<td>Simeon Franklin &amp; Marko Gargenta - TechDocs at Twitter: Creating the Culture of Documentation</td>
-</tr>
-<tr class="row-odd"><td>16:30</td>
-<td>Maxwell Hoffmann - Say more with less: writing for a global audience</td>
-</tr>
-<tr class="row-even"><td>16:50</td>
-<td>Amelia Abreu - Data, Documentation and Memory</td>
-</tr>
-<tr class="row-odd"><td>17:10</td>
-<td>Christina Elmore - Death by Documentation</td>
-</tr>
-<tr class="row-even"><td>17:30</td>
-<td>Party Reminder</td>
-</tr>
-<tr class="row-odd"><td>17:30</td>
-<td>End</td>
-</tr>
-<tr class="row-even"><td>19:00</td>
-<td>Conference Party - Sponsored by <a href="http://rethinkdb.com/">RethinkDB</a></td>
-</tr>
-</tbody>
-</table></div>
-</div>
-<div class="section" id="lola-s-room">
-<h3>Lola’s Room</h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<colgroup>
-<col width="22%">
-<col width="78%">
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Time</th>
-<th class="head">Session</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>9:00</td>
-<td>Unstructured Time - Have a chat with someone, check your email, or just relax.</td>
-</tr>
-<tr class="row-odd"><td>13:50</td>
-<td>Bryan Helmig - Your API Consumers Aren’t Who You Think They Are</td>
-</tr>
-<tr class="row-even"><td>14:10</td>
-<td>Eric Holmes - STEM rising: strategies for teaching technical writing at the collegiate level</td>
-</tr>
-<tr class="row-odd"><td>14:30</td>
-<td>Open Spaces - Get together and talk with people about a specific topic you care about. Signups will be on a white board.</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-</div>
-<div class="section" id="day-2">
-<h2>Day 2</h2>
-<div class="section" id="id1">
-<h3>Main Track</h3>
-<p>Sponsored by <a class="reference external" href="https://twitter.com/">Twitter</a></p>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<colgroup>
-<col width="22%">
-<col width="78%">
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Time</th>
-<th class="head">Session</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>8:00</td>
-<td>Venue Open</td>
-</tr>
-<tr class="row-odd"><td>8:15</td>
-<td>Breakfast</td>
-</tr>
-<tr class="row-even"><td>8:55</td>
-<td>Announcements</td>
-</tr>
-<tr class="row-odd"><td>9:00</td>
-<td>Drew Jaynes - Putting the (docs) Cart Before the (standards) Horse</td>
-</tr>
-<tr class="row-even"><td>9:20</td>
-<td>Susan Salituro - From docs to engineering and back again</td>
-</tr>
-<tr class="row-odd"><td>9:40</td>
-<td>James Pearson - Don’t Write Documentation</td>
-</tr>
-<tr class="row-even"><td>10:00</td>
-<td>Christopher Kelleher - Make Music Not Noise</td>
-</tr>
-<tr class="row-odd"><td>10:20</td>
-<td>Break</td>
-</tr>
-<tr class="row-even"><td>10:40</td>
-<td>Brian L. Troutwine - Instrumentation as Living Documentation: Teaching Humans About Complex Systems</td>
-</tr>
-<tr class="row-odd"><td>11:20</td>
-<td>Lauren Rother - We Strongly Recommend You Write Best Practices</td>
-</tr>
-<tr class="row-even"><td>11:40</td>
-<td>Scot Marvin - Wabi-Sabi Writing</td>
-</tr>
-<tr class="row-odd"><td>12:00</td>
-<td>Britta Gustafson - Strategies to fight documentation inertia</td>
-</tr>
-<tr class="row-even"><td>12:20</td>
-<td>Lunch</td>
-</tr>
-<tr class="row-odd"><td>13:20</td>
-<td>Lightning talks</td>
-</tr>
-<tr class="row-even"><td>13:50</td>
-<td>L.S. Cook - Scale for Support Without Losing Personality</td>
-</tr>
-<tr class="row-odd"><td>14:10</td>
-<td>Jared Bhatti - The Getting Stopped Experience: Improving Your Content’s First Impression</td>
-</tr>
-<tr class="row-even"><td>14:50</td>
-<td>Zach Corleissen - More Than a Reference: Better APIs through Empathy</td>
-</tr>
-<tr class="row-odd"><td>15:10</td>
-<td>Break</td>
-</tr>
-<tr class="row-even"><td>15:30</td>
-<td>Patrick Arlt - Ditch your CMS with Git and Static Site Generators</td>
-</tr>
-<tr class="row-odd"><td>16:10</td>
-<td>Mark Tattersall - Documentation as a Product</td>
-</tr>
-<tr class="row-even"><td>16:50</td>
-<td>Eric Holscher - Closing Remarks</td>
-</tr>
-<tr class="row-odd"><td>17:00</td>
-<td>End</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-<div class="section" id="id2">
-<h3>Lola’s Room</h3>
-<div class="wy-table-responsive"><table border="1" class="docutils">
-<colgroup>
-<col width="22%">
-<col width="78%">
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Time</th>
-<th class="head">Session</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>9:00</td>
-<td>Unstructured Time - Have a chat with someone, check your email, or just relax</td>
-</tr>
-<tr class="row-odd"><td>13:50</td>
-<td>Steve Stegelin - Bringing UA into the UX (and Vice Versa)</td>
-</tr>
-<tr class="row-even"><td>14:10</td>
-<td>Juliana Arrighi - Cultivating Biological Documentation</td>
-</tr>
-<tr class="row-odd"><td>14:30</td>
-<td>Open Spaces - Get together and talk with people about a specific topic you care about</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-</div>
-</div>
-
-            </div>
-          </div>
-        </section>
-
-        <section id="venue" class="yellow-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>VENUE</h1>
-                <h3>The Crystal Ballroom</h3>
-
-                <p>
-                This year’s Portland conference will be held at the <a href="http://www.mcmenamins.com/CrystalBallroom">Crystal Ballroom</a>. It is a beautiful concert venue located in the <a href="http://goo.gl/maps/D2WrJ">middle of downtown</a> Portland. We believe it will provide a great home for Write the Docs this year, with room to grow in the future.
-                </p>
-
-                <img style="width: 80%; display:block; margin-left: auto; margin-right: auto;" src="http://c308991.r91.cf1.rackcdn.com/SiteFiles/Venues/4784/048MG0488978.jpg">
-
-                <p>
-                <br>
-                We listened to people’s feedback last year, and one of the biggest issues was the lack of a “Hallway Track”. To help solve that problem, we also have booked <a href="http://www.mcmenamins.com/192-lola-s-room-home">Lola’s Room</a>, which is a separate space in the same building. Lola’s Room will be available for use by attendees throughout the conference. The building also has a couple of other areas where you can have a conversation with someone new and interesting you just met.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="sponsors" class="dkgray-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>SPONSORS</h1>
-                <h3>Call For Sponsorship</h3>
-                <p>
-                  We are seeking corporate partners to help us create the best conference possible. Please act fast, the time is nigh and <strong>sponsorships are limited</strong>.
-                </p>
-                <p>
-                  For more information please <a href="mailto:writethedocs@gmail.com?Subject=[Write%20The%20Docs%20NA]%20Sponsorship">contact us</a>.
-                </p>
-                <h3>Current Sponsors</h3>
-                <br><br>
-
-                <!-- Publisher -->
-                <div class="row-fluid">
-                  <div class="span12">
-                    <div class="media" style="background-color:white;">
-                      <center>
-                        <a href="https://twitter.com/" target="_blank">
-                          <img style="height: 150px;" src="../../img/sponsors/twitter.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row-fluid">
-                  <div class="span12">
-                    <div class="media" style="background-color:white;">
-                      <center>
-                        <a href="https://www.atlassian.com" target="_blank">
-                          <img style="height: 150px;" src="../../img/sponsors/atlassian.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="row-fluid">
-                  <div class="span12">
-                    <div class="media" style="background-color:white;">
-                      <center>
-                        <a href="http://rethinkdb.com/" target="_blank">
-                          <img style="height: 150px;" src="../../img/sponsors/rethinkdb.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- End Publisher -->
-                <!-- Editor -->
-                <div class="row-fluid">
-                  <div class="span6">
-                    <div class="media" style="background-color:white; height: 120px;">
-                      <center>
-                        <a href="http://www.rackspace.com" target="_blank">
-                          <img src="../../img/sponsors/rackspace.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                  <div class="span6">
-                    <div class="media" style="background-color:white; height: 120px;">
-                      <center>
-                        <a href="http://www.mozilla.org/en-US/" target="_blank">
-                          <img src="../../img/sponsors/mozilla.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span6">
-                    <div class="media" style="background-color:white; height: 120px;">
-                      <center>
-                        <a href="http://www.esri.com/" target="_blank">
-                          <img src="../../img/sponsors/esri.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                  <div class="span6">
-                    <div class="media" style="background-color:white; height: 120px;">
-                      <center>
-                        <a href="http://wordpress.com/" target="_blank">
-                          <img src="../../img/sponsors/wordpresscom.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row-fluid">
-                  <div class="span6">
-                    <div class="media" style="background-color:white; height: 120px;">
-                      <center>
-                        <a href="http://newrelic.com/" target="_blank">
-                          <img src="../../img/sponsors/newrelic.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                  <div class="span6">
-                    <div class="media" style="background-color:white;">
-                      <center>
-                        <a href="http://urbanairship.com/" target="_blank">
-                          <img src="../../img/sponsors/urbanairship.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Editor -->
-
-                <!-- First Draft -->
-                <div class="row-fluid">
-                  <div class="span4">
-                    <div class="media" style="background-color:white;">
-                      <center>
-                        <a href="http://www.mindtouch.com/" target="_blank">
-                          <img src="../../img/sponsors/mindtouch.png" />
-                        </a>
-                      </center>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- End First Draft -->
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="info" class="yellow-sec content">
-          <div class="container">
-            <div class="row">
-              <div class="span8 offset2">
-                <h1>CONTACT</h1>
-                  <p>
-                    If you have any questions or concerns, please <a href="mailto:writethedocs@gmail.com?Subject=[Write%20The%20Docs%20NA]%20Feedback">email us</a>.
-                  </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <footer>
-          <hr>
-          <div class="footer">
+         <div class="navbar-inner">
             <div class="container">
-              <span>© Write The Docs 2014</span>
-              <span> </span>
-              <span id="social-footer" class="pull-right">
-                <span><a href="https://github.com/writethedocs"><i class="iconf-github-circled-alt2"></i></a></span>
-                <span><a href="https://twitter.com/writethedocs"><i class="iconf-twitter-circled"></i></a></span>
-                <span><a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a></span>
-                <span><a href="../../code-of-conduct.html">Code of Conduct</a></span>
-              </span>
+               <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></a> <!-- Everything you want hidden at 940px or less, place within here -->
+               <div class="nav-collapse collapse">
+                  <div class="row">
+                     <div class="span8 offset2 lt-grey-b">
+                        <ul class="nav">
+                           <li>
+                              <a href="#home">Home</a>
+                           </li>
+                           <li>
+                              <a href="#about">About</a>
+                           </li>
+                           <li>
+                              <a href="#cfp">Speakers</a>
+                           </li>
+                           <li>
+                              <a href="#events">Events</a>
+                           </li>
+                           <li>
+                              <a href="#schedule">Schedule</a>
+                           </li>
+                           <li>
+                              <a href="#venue">Venue</a>
+                           </li>
+                           <li>
+                              <a href="#sponsors">Sponsors</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-        </footer>
-
-        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.9.0.min.js"><\/script>')</script> -->
-
-        <script src="../../js/vendor/jquery-1.9.0.min.js"></script>
-        <script src="../../js/vendor/bootstrap.min.js"></script>
-
-        <script type="text/javascript">
-           $(function() {
-             $(document).on("click", "nav ul li a", function(event) {
-               var el = $(event.target);
-               var target = $(el.attr("href"));
-               event.preventDefault();
-               if (target.length) {
-                 $('html,body').animate({
-                   scrollTop: target.offset().top - 60
-                 }, 500);
-                 return false;
-               }
-             });
-           });
-         </script>
-
-        <script type="text/javascript">
-          // google analytics
-          // note: this will create a JS console error when viewing local via file:// uris
-          var _gaq=[['_setAccount','UA-37795838-1'],['_trackPageview']];
-          (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
-          s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-  </body>
+         </div>
+      </div>
+      <section id="home">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <div class="poster">
+                     <div class="wtd-block dk-grey-b">
+                        <div class="row-fluid wtd-r1">
+                           <span class="lt-grey-f poster-write"><span class="yellow-f">W</span>RITE</span>
+                        </div>
+                        <div class="row-fluid wtd-r2">
+                           <span><span class="lt-grey-f poster-the">THE</span> <span class=""></span> <span class="yellow-f poster-docs">DOCS</span></span>
+                        </div>
+                     </div>
+                     <hr class="divider-block yellow-b">
+                     <div class="locale-block lt-grey-b">
+                        <div class="row-fluid wtd-r3-na">
+                           <span><span class="dk-grey-f">PORTLAND</span><span>&nbsp;</span><span class="yellow-f">503</span></span>
+                        </div>
+                        <div class="row-fluid wtd-r4-na">
+                           <span class="dk-grey-f poster-oregon"><span class="yellow-f">OR</span>EGON</span>
+                        </div>
+                        <div class="row-fluid wtd-r5-na">
+                           <span><span class="dk-grey-f">MAY 5-6</span> <span class="yellow-f">2014</span></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="container" style="margin-top: -40px; margin-bottom: 40px">
+            <center>
+               <h3 style="display: inline-block; margin: 20px 10px;"><a class="dk-grey-f yellow-b" href="http://www.writethedocs.org/conf/na/2015/" style="font-size: 1.25em; padding: .5em;">Join us for our 2015 conference!</a></h3>
+            </center>
+         </div>
+      </section>
+      <section>
+         <div class="container" style="margin-top: -40px; margin-bottom: 40px">
+            <center>
+               <h3 style="display: inline-block; margin: 20px 10px;"><a class="dk-grey-f yellow-b" href="http://videos.writethedocs.org/category/2/na-2014" style="font-size: 1.25em; padding: .5em;">View the videos</a></h3>
+            </center>
+         </div>
+      </section>
+      <section class="yellow-sec content" id="about">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>ABOUT</h1>
+                  <p><strong>Write the Docs</strong> is a two-day conference focused on documentation systems, tech writing theory, and information delivery.</p>
+                  <p>Writing and maintaining documentation involves the talents of a multidisciplinary community of technical writers, designers, typesetters, developers, support teams, marketers, and many others.</p>
+                  <p>This conference creates a time and a place for this community of <em>documentarians</em> to share information, discuss ideas, and work together to improve the art and science of documentation.</p>
+                  <p>We invite all those who write the docs to spread the word:</p>
+                  <p><strong>Docs or it didn't happen!</strong></p>
+                  <h3>SIGN UP</h3>
+                  <p>Sign up for the mailing list to get announcements and updates about the conference.</p>
+                  <div id="mc_embed_signup">
+                     <form action="http://writethedocs.us6.list-manage.com/subscribe/post?u=94377ea46d8b176a11a325d03&amp;id=dcf0ed349b" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+                        <div class="mc-field-group input-append">
+                           <input class="required email" id="mce-EMAIL" name="EMAIL" placeholder="Email Address" type="email" value=""> <input class="btn" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe">
+                        </div>
+                        <div class="clear" id="mce-responses">
+                           <div class="response" id="mce-error-response" style="display:none"></div>
+                           <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dkgray-sec content" id="cfp">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>SPEAKERS</h1>
+                  <h3>Current Speakers</h3>
+                  <div class="speakers">
+                     <!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/kenneth-reitz.jpeg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/kennethreitz">Kenneth Reitz</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/susan-salituro.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://www.linkedin.com/pub/susan-salituro/0/791/656">Susan Salituro</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/geoffrey-grosenbach.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/topfunky">Geoffrey Grosenbach</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/amalia-hawkins.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/starsseldomseen">Amalia Hawkins</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/scot-marvin.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/scotmarvin">Scot Marvin</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/lauren-rother.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://github.com/laurenrother">Lauren Rother</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/mark-tattersall.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/foxes96">Mark Tattersall</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/zach-corleissen.jpg" width="200">
+                           <h4 class="media-heading"><a href="http://moz.com/about/team/zach">Zach Corleissen</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/patrick-arlt.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/patrickarlt">Patrick Arlt</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/juliana-arrighi.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/juliuliana">Juliana Arrighi</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/mo-nishiyama.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://www.linkedin.com/pub/mo-nishiyama/42/833/b3b">Mo Nishiyama</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/christina-elmore.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/elchristina">Christina Elmore</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/brian-troutwine.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/bltroutwine">Brian Troutwine</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/amelia-abreu.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/ameliaabreu">Amelia Abreu</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/matthew-lyon.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/mattly">Matthew Lyon</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/britta-gustafson.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/brittagus">Britta Gustafson</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/chris-kelleher.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="http://christopherkelleher.me/">Christopher Kelleher</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/lois-patterson.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/loisrp">Lois Patterson</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/simeon-franklin.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/simeonfranklin">Simeon Franklin</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/heidi-waterhouse.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/wiredferret">Heidi Waterhouse</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/homer-christensen.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://www.linkedin.com/in/homerchristensen">Homer Christensen</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/ali-spivak.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/alispivak">Ali Spivak</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/jared-bhatti.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/jaredbhatti">Jared Bhatti</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/eric-holmes.jpg" width="200">
+                           <h4 class="media-heading"><a href="#">Eric Holmes</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/drew-jaynes.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/DrewAPicture">Drew Jaynes</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/ls-cook.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="http://www.hackeress.com">L.S. Cook</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/steve-stegelin.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/Stegelin">Steve Stegelin</a></h4>
+                        </div>
+                     </div><!-- row of speakers -->
+                     <div class="row-fluid">
+                        <div class="span4">
+                           <img src="../../img/speakers/alex-gaynor.jpg" width="200">
+                           <h4 class="media-heading"><a href="http://alexgaynor.net/2014/mar/20/house-twitter/">Alex Gaynor</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/james-pearson.jpg" style="margin-bottom: 10px;" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/xiongchiamiov">James Pearson</a></h4>
+                        </div>
+                        <div class="span4">
+                           <img src="../../img/speakers/bryan-helmig.jpg" width="200">
+                           <h4 class="media-heading"><a href="https://twitter.com/bryanhelmig">Bryan Helmig</a></h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="yellow-sec content" id="events">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>EVENTS</h1>
+                  <h3>Hike</h3>
+                  <p>We will be having a hike on Sunday before the conference. Portland is one of the most beautiful cities in the USA, and has wilderness inside city limits. Come see what beauty hides in the hills behind town.</p>
+                  <p>The hike will leave at 1pm.</p>
+                  <h3>Pre-Registration</h3>
+                  <p>Urban Airship will be kindly hosting the pre-registration event this year. Get your badges early, and get to know some other attendees before the conference starts.</p>
+                  <p>Urban airship is located at <a href="http://goo.gl/maps/hjm90">1417 NW Everett St</a>. The event will run from <strong>5pm to 8pm on Sunday, May 4</strong>.</p>
+                  <h3>Party</h3>
+                  <p>Join us at Ground Kontrol on Monday night for classic arcade games and drinks. Bring your badge, grab a refreshment, and challenge someone to a <a class="reference external" href="http://www.flickr.com/photos/kennethreitz/8635574190/">4-player Pac Man</a> match.</p>
+                  <p><a class="reference external" href="http://groundkontrol.com/">Ground Kontrol</a> is located at 511 NW Couch St. We’ll be there from 7:00-9:00 PM Monday night.</p>
+                  <p>If Tekken or Frogger isn’t your thing, we’re also having an event at <a href="http://goo.gl/maps/iQVoP">Henry's Tavern</a>.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dkgray-sec content" id="schedule">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>SCHEDULE</h1>
+                  <div class="section" id="day-0">
+                     <h2>Day 0</h2>
+                     <p>Join us for a Pre-Registration event at Urban Airship (<a class="reference external" href="http://goo.gl/maps/jvk49">Map</a>) held from 5-8pm. Grab your badge and shirt early, and get to know other documentarians with provided drinks.</p>
+                  </div>
+                  <div class="section" id="day-1">
+                     <h2>Day 1</h2>
+                     <p>Sponsored by <a class="reference external" href="https://www.atlassian.com/">Atlassian</a></p>
+                     <div class="section" id="main-track">
+                        <h3>Main Track</h3>
+                        <div class="wy-table-responsive">
+                           <table border="1" class="docutils">
+                              <colgroup>
+                                 <col width="22%">
+                                 <col width="78%">
+                              </colgroup>
+                              <thead valign="bottom">
+                                 <tr class="row-odd">
+                                    <th class="head">Time</th>
+                                    <th class="head">Session</th>
+                                 </tr>
+                              </thead>
+                              <tbody valign="top">
+                                 <tr class="row-even">
+                                    <td>8:00</td>
+                                    <td>Venue Open</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>8:15</td>
+                                    <td>Breakfast</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>9:00</td>
+                                    <td>Eric Holscher - Introduction</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>9:20</td>
+                                    <td>R. N. Homer Christensen - Flow: A Permaculture Approach to Documentation Projects</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>10:00</td>
+                                    <td>Ali Spivak - Communities are Awesome</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>10:20</td>
+                                    <td>Heidi Waterhouse - The New Sheriff in Town: Bringing Documentation Out of Chaos</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>10:40</td>
+                                    <td>Break</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>11:00</td>
+                                    <td>Amalia Hawkins - Ignorance Is Strength: Writing Documentation By Learning As You Go</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>11:40</td>
+                                    <td>Mo Nishiyama - Did It In Minutes: The Art of Documenting Meeting Notes</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>12:00</td>
+                                    <td>Nina Vyedin - Hacking the English Language</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>12:20</td>
+                                    <td>Lunch</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>13:20</td>
+                                    <td>Lightning talks</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>13:50</td>
+                                    <td>Alex Gaynor - Documenting Domain Specific Knowledge</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>14:10</td>
+                                    <td>Geoffrey Grosenbach - Graphical Explanations</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>14:30</td>
+                                    <td>Matthew Lyon - Minimum Viable Documentation</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>14:50</td>
+                                    <td>Lois Patterson - What Makes Good API Documentation: An Example-Based Approach</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>15:10</td>
+                                    <td>Kenneth Reitz - Documentation at Scale</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>15:30</td>
+                                    <td>Break</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>15:50</td>
+                                    <td>Simeon Franklin &amp; Marko Gargenta - TechDocs at Twitter: Creating the Culture of Documentation</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>16:30</td>
+                                    <td>Maxwell Hoffmann - Say more with less: writing for a global audience</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>16:50</td>
+                                    <td>Amelia Abreu - Data, Documentation and Memory</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>17:10</td>
+                                    <td>Christina Elmore - Death by Documentation</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>17:30</td>
+                                    <td>Party Reminder</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>17:30</td>
+                                    <td>End</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>19:00</td>
+                                    <td>
+                                       Conference Party - Sponsored by <a href="http://rethinkdb.com/">RethinkDB</a>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="section" id="lola-s-room">
+                        <h3>Lola’s Room</h3>
+                        <div class="wy-table-responsive">
+                           <table border="1" class="docutils">
+                              <colgroup>
+                                 <col width="22%">
+                                 <col width="78%">
+                              </colgroup>
+                              <thead valign="bottom">
+                                 <tr class="row-odd">
+                                    <th class="head">Time</th>
+                                    <th class="head">Session</th>
+                                 </tr>
+                              </thead>
+                              <tbody valign="top">
+                                 <tr class="row-even">
+                                    <td>9:00</td>
+                                    <td>Unstructured Time - Have a chat with someone, check your email, or just relax.</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>13:50</td>
+                                    <td>Bryan Helmig - Your API Consumers Aren’t Who You Think They Are</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>14:10</td>
+                                    <td>Eric Holmes - STEM rising: strategies for teaching technical writing at the collegiate level</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>14:30</td>
+                                    <td>Open Spaces - Get together and talk with people about a specific topic you care about. Signups will be on a white board.</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="section" id="day-2">
+                     <h2>Day 2</h2>
+                     <div class="section" id="id1">
+                        <h3>Main Track</h3>
+                        <p>Sponsored by <a class="reference external" href="https://twitter.com/">Twitter</a></p>
+                        <div class="wy-table-responsive">
+                           <table border="1" class="docutils">
+                              <colgroup>
+                                 <col width="22%">
+                                 <col width="78%">
+                              </colgroup>
+                              <thead valign="bottom">
+                                 <tr class="row-odd">
+                                    <th class="head">Time</th>
+                                    <th class="head">Session</th>
+                                 </tr>
+                              </thead>
+                              <tbody valign="top">
+                                 <tr class="row-even">
+                                    <td>8:00</td>
+                                    <td>Venue Open</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>8:15</td>
+                                    <td>Breakfast</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>8:55</td>
+                                    <td>Announcements</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>9:00</td>
+                                    <td>Drew Jaynes - Putting the (docs) Cart Before the (standards) Horse</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>9:20</td>
+                                    <td>Susan Salituro - From docs to engineering and back again</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>9:40</td>
+                                    <td>James Pearson - Don’t Write Documentation</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>10:00</td>
+                                    <td>Christopher Kelleher - Make Music Not Noise</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>10:20</td>
+                                    <td>Break</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>10:40</td>
+                                    <td>Brian L. Troutwine - Instrumentation as Living Documentation: Teaching Humans About Complex Systems</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>11:20</td>
+                                    <td>Lauren Rother - We Strongly Recommend You Write Best Practices</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>11:40</td>
+                                    <td>Scot Marvin - Wabi-Sabi Writing</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>12:00</td>
+                                    <td>Britta Gustafson - Strategies to fight documentation inertia</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>12:20</td>
+                                    <td>Lunch</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>13:20</td>
+                                    <td>Lightning talks</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>13:50</td>
+                                    <td>L.S. Cook - Scale for Support Without Losing Personality</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>14:10</td>
+                                    <td>Jared Bhatti - The Getting Stopped Experience: Improving Your Content’s First Impression</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>14:50</td>
+                                    <td>Zach Corleissen - More Than a Reference: Better APIs through Empathy</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>15:10</td>
+                                    <td>Break</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>15:30</td>
+                                    <td>Patrick Arlt - Ditch your CMS with Git and Static Site Generators</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>16:10</td>
+                                    <td>Mark Tattersall - Documentation as a Product</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>16:50</td>
+                                    <td>Eric Holscher - Closing Remarks</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>17:00</td>
+                                    <td>End</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="section" id="id2">
+                        <h3>Lola’s Room</h3>
+                        <div class="wy-table-responsive">
+                           <table border="1" class="docutils">
+                              <colgroup>
+                                 <col width="22%">
+                                 <col width="78%">
+                              </colgroup>
+                              <thead valign="bottom">
+                                 <tr class="row-odd">
+                                    <th class="head">Time</th>
+                                    <th class="head">Session</th>
+                                 </tr>
+                              </thead>
+                              <tbody valign="top">
+                                 <tr class="row-even">
+                                    <td>9:00</td>
+                                    <td>Unstructured Time - Have a chat with someone, check your email, or just relax</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>13:50</td>
+                                    <td>Steve Stegelin - Bringing UA into the UX (and Vice Versa)</td>
+                                 </tr>
+                                 <tr class="row-even">
+                                    <td>14:10</td>
+                                    <td>Juliana Arrighi - Cultivating Biological Documentation</td>
+                                 </tr>
+                                 <tr class="row-odd">
+                                    <td>14:30</td>
+                                    <td>Open Spaces - Get together and talk with people about a specific topic you care about</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="yellow-sec content" id="venue">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>VENUE</h1>
+                  <h3>The Crystal Ballroom</h3>
+                  <p>This year’s Portland conference will be held at the <a href="http://www.mcmenamins.com/CrystalBallroom">Crystal Ballroom</a>. It is a beautiful concert venue located in the <a href="http://goo.gl/maps/D2WrJ">middle of downtown</a> Portland. We believe it will provide a great home for Write the Docs this year, with room to grow in the future.</p><img src="http://c308991.r91.cf1.rackcdn.com/SiteFiles/Venues/4784/048MG0488978.jpg" style="width: 80%; display:block; margin-left: auto; margin-right: auto;">
+                  <p><br>
+                  We listened to people’s feedback last year, and one of the biggest issues was the lack of a “Hallway Track”. To help solve that problem, we also have booked <a href="http://www.mcmenamins.com/192-lola-s-room-home">Lola’s Room</a>, which is a separate space in the same building. Lola’s Room will be available for use by attendees throughout the conference. The building also has a couple of other areas where you can have a conversation with someone new and interesting you just met.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dkgray-sec content" id="sponsors">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>SPONSORS</h1>
+                  <h3>Call For Sponsorship</h3>
+                  <p>We are seeking corporate partners to help us create the best conference possible. Please act fast, the time is nigh and <strong>sponsorships are limited</strong>.</p>
+                  <p>For more information please <a href="mailto:writethedocs@gmail.com?Subject=[Write%20The%20Docs%20NA]%20Sponsorship">contact us</a>.</p>
+                  <h3>Current Sponsors</h3><br>
+                  <br>
+                  <!-- Publisher -->
+                  <div class="row-fluid">
+                     <div class="span12">
+                        <div class="media" style="background-color:white;">
+                           <center>
+                              <img src="../../img/sponsors/twitter.png" style="height: 150px;">
+                           </center>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span12">
+                        <div class="media" style="background-color:white;">
+                           <center>
+                              <img src="../../img/sponsors/atlassian.png" style="height: 150px;">
+                           </center>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span12">
+                        <div class="media" style="background-color:white;">
+                           <center>
+                              <img src="../../img/sponsors/rethinkdb.png" style="height: 150px;">
+                           </center>
+                        </div>
+                     </div>
+                  </div><!-- End Publisher -->
+                  <!-- Editor -->
+                  <div class="row-fluid">
+                     <div class="span6">
+                        <div class="media" style="background-color:white; height: 120px;">
+                           <center>
+                              <img src="../../img/sponsors/rackspace.png">
+                           </center>
+                        </div>
+                     </div>
+                     <div class="span6">
+                        <div class="media" style="background-color:white; height: 120px;">
+                           <center>
+                              <img src="../../img/sponsors/mozilla.png">
+                           </center>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span6">
+                        <div class="media" style="background-color:white; height: 120px;">
+                           <center>
+                              <img src="../../img/sponsors/esri.png">
+                           </center>
+                        </div>
+                     </div>
+                     <div class="span6">
+                        <div class="media" style="background-color:white; height: 120px;">
+                           <center>
+                              <img src="../../img/sponsors/wordpresscom.png">
+                           </center>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row-fluid">
+                     <div class="span6">
+                        <div class="media" style="background-color:white; height: 120px;">
+                           <center>
+                              <img src="../../img/sponsors/newrelic.png">
+                           </center>
+                        </div>
+                     </div>
+                     <div class="span6">
+                        <div class="media" style="background-color:white;">
+                           <center>
+                              <img src="../../img/sponsors/urbanairship.png">
+                           </center>
+                        </div>
+                     </div>
+                  </div><!-- End Editor -->
+                  <!-- First Draft -->
+                  <div class="row-fluid">
+                     <div class="span4">
+                        <div class="media" style="background-color:white;">
+                           <center>
+                              <img src="../../img/sponsors/mindtouch.png">
+                           </center>
+                        </div>
+                     </div>
+                  </div><!-- End First Draft -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="yellow-sec content" id="info">
+         <div class="container">
+            <div class="row">
+               <div class="span8 offset2">
+                  <h1>CONTACT</h1>
+                  <p>If you have any questions or concerns, please <a href="mailto:writethedocs@gmail.com?Subject=[Write%20The%20Docs%20NA]%20Feedback">email us</a>.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <hr>
+         <div class="footer">
+            <div class="container">
+               <span>© Write The Docs 2014</span> <span></span> <span class="pull-right" id="social-footer"><span><a href="https://github.com/writethedocs"><i class="iconf-github-circled-alt2"></i></a></span> <span><a href="https://twitter.com/writethedocs"><i class="iconf-twitter-circled"></i></a></span> <span><a href="http://webchat.freenode.net?channels=writethedocs">#writethedocs</a></span> <span><a href="../../code-of-conduct.html">Code of Conduct</a></span></span>
+            </div>
+         </div>
+      </footer><!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+           <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.9.0.min.js"><\/script>')</script> -->
+      <script src="../../js/vendor/jquery-1.9.0.min.js">
+      </script> 
+      <script src="../../js/vendor/bootstrap.min.js">
+      </script> 
+      <script type="text/javascript">
+              $(function() {
+                $(document).on("click", "nav ul li a", function(event) {
+                  var el = $(event.target);
+                  var target = $(el.attr("href"));
+                  event.preventDefault();
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top - 60
+                    }, 500);
+                    return false;
+                  }
+                });
+              });
+      </script> 
+      <script type="text/javascript">
+             // google analytics
+             // note: this will create a JS console error when viewing local via file:// uris
+             var _gaq=[['_setAccount','UA-37795838-1'],['_trackPageview']];
+             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+             g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
+             s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+   </body>
 </html>
